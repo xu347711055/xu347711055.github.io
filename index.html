@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AWS刷题">
+    <link rel="apple-touch-icon" href="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg">
+    <title>AWS AI Practitioner 刷题助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AWS AI Practitioner 刷题助手</h1>
+            <div class="progress-container">
+                <span id="progress-text">Question 1 of ?</span>
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+            </div>
+        </header>
+
+        <main id="quiz-container">
+            <div class="question-card">
+                <div class="question-header">
+                    <span id="question-id" class="badge">Question #1</span>
+                </div>
+                <div id="question-text" class="question-text">
+                    Loading question...
+                </div>
+                <div id="options-container" class="options-container">
+                    <!-- Options will be inserted here -->
+                </div>
+            </div>
+
+            <div id="feedback-container" class="feedback-container hidden">
+                <h3>解析</h3>
+                <div id="feedback-text"></div>
+                <div id="explanation-text" class="explanation-text"></div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="controls">
+                <button id="prev-btn" class="btn secondary" disabled>上一题</button>
+                <button id="show-answer-btn" class="btn warning">显示答案</button>
+                <button id="next-btn" class="btn primary">下一题</button>
+            </div>
+            <div class="jump-control">
+                <input type="number" id="jump-input" min="1" placeholder="题号">
+                <button id="jump-btn" class="btn outline">跳转</button>
+            </div>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
