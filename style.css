@@ -37,6 +37,12 @@ header {
     text-align: center;
 }
 
+.stats-text {
+    margin-top: 0.5rem;
+    color: #555;
+    font-size: 0.95rem;
+}
+
 h1 {
     color: var(--primary-color);
     margin-bottom: 0.5rem;
@@ -211,11 +217,25 @@ footer {
     padding: 0.5rem 1rem;
 }
 
+.full-width {
+    width: 100%;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
 .jump-control {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     align-items: center;
+}
+
+.bottom-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 #jump-input {

@@ -517,7 +517,7 @@
       "D": "Cost optimization \n成本优化",
       "E": "Loosely coupled microservices \n松耦合微服务"
     },
-    "answer": "B",
+    "answer": "BC",
     "explanation": "C \n正确答案：\nBC\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nCommunity vote distribution\n社区投票分布\nBC (93%)\nC (7%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务在合规性方面的能力，特别是与数据保护和安全相关的功能。\n重点关注\nAmazon SageMaker\n及其相关服务如何支持合规性要求，例如数据保护和威胁检测。\n2. \n选项分析\n选项分析\nA. Auto scaling inference endpoints \n自动扩展推理端点\n自动扩展推理端点\n此选项与性能优化相关，而非直接与合规性相关。虽然自动扩展可以提高服务的可用性，但它并不直接支持合规性要\n求，因此此选项错误。\nB. Threat detection \n威胁检测\n威胁检测\n威胁检测是合规性的重要组成部分，\nAWS\n提供了多种服务（如\nAmazon GuardDuty\n）来帮助检测潜在的安全威胁。这\n与合规性要求直接相关，因此此选项正确。\nC. Data protection \n数据保护\n数据保护\n数据保护是合规性框架的核心要求之一。\nAWS\n提供了多种功能（如加密、访问控制）来保护数据的安全性和隐私性，\n因此此选项正确。\nD. Cost optimization \n成本优化\n成本优化\n成本优化是\nAWS\n的一个优势，但它与合规性无关。合规性关注的是安全性、隐私性和法规遵从，而非成本管理，因此\n此选项错误。\nE. Loosely coupled microservices \n松耦合微服务\n松耦合微服务\n松耦合微服务是架构设计的一个原则，与系统的灵活性和可扩展性相关，但它与合规性无关，因此此选项错误。\n3. \n我的答案\n我的答案\nB. Threat detection \n威胁检测\nC. Data protection \n数据保护\n4. \n官方答案\n官方答案\nB. Threat detection \n威胁检测\nC. Data protection \n数据保护\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，没有差异。\n"
   },
   {
@@ -583,7 +583,7 @@
       "D": "Amazon Bedrock \n\n \nAmazon Bedrock",
       "E": "Amazon Rekognition \nAmazon Rekognition"
     },
-    "answer": "B",
+    "answer": "BD",
     "explanation": "D \n正确答案：\nBD\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nCommunity vote distribution\n社区投票分布\nBD (100%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n本题考察的是\nAWS\n服务在自然语言处理（\nNLP\n）和情感分析中的应用。\n重点关注\nAWS\n服务如何处理文本数据以提取情感和语义信息。\n2. \n选项分析\n选项分析\nA. Amazon Lex\n:\nAmazon Lex\n是一个用于构建对话式接口（如聊天机器人）的服务。\n它不直接用于情感分析，因此此选项错误。\nB. Amazon Comprehend\n:\nAmazon Comprehend\n是一个自然语言处理服务，可以执行情感分析、实体识别等任务。\n它直接满足题目要求，因此此选项正确。\nC. Amazon Polly\n:\nAmazon Polly\n是一个文本转语音服务，用于将文本转换为自然的语音。\n它与情感分析无关，因此此选项错误。\nD. Amazon Bedrock\n:\nAmazon Bedrock\n是一个生成式\nAI\n服务，支持多种基础模型（\nFoundation Models\n），可以用于高级自然语言处理任\n务，包括情感分析。\n它满足题目要求，因此此选项正确。\nE. Amazon Rekognition\n:\nAmazon Rekognition\n是一个图像和视频分析服务，用于面部识别、对象检测等任务。\n它不处理文本数据，因此此选项错误。\n3. \n我的答案\n我的答案\nB. Amazon Comprehend\nD. Amazon Bedrock\n4. \n官方答案\n官方答案\nB. Amazon Comprehend\nD. Amazon Bedrock\n5. \n比较与思考\n比较与思考\n我的答案与官方答案一致，无需重新思考。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \""
   },
   {
@@ -636,7 +636,7 @@
       "D": "Use the Recall-Oriented Understudy for Gisting Evaluation (ROUGE) technique to ensure that the model is 100%\naccurate. \n使用\nRecall-Oriented Understudy for Gisting Evaluation (ROUGE)\n技术确保模型\n100%\n准确。",
       "E": "Ensure that the model's inference time is within the accepted limits. \n确保模型的推理时间在可接受范围内。"
     },
-    "answer": "A",
+    "answer": "AC",
     "explanation": "C \n正确答案：\nAC\n题目分析与解答\n题目分析与解答\nCommunity vote distribution\n社区投票分布\nAC (100%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n负责任的\nAI\n开发：如何构建和使用\nAI\n模型以减少偏差并确保公平性。\n数据质量与模型评估：检测数据中的不平衡和评估模型行为以提供透明性。\n2. \n选项分析\n选项分析\nA. Detect imbalances or disparities in the data.\n \n正确。检测数据中的不平衡或差异是负责任的\nAI\n开发的关键步骤，可以帮助减少模型偏差并确保公平性。\nB. Ensure that the model runs frequently.\n \n错误。频繁运行模型与减少偏差或负责任的\nAI\n开发无直接关联。\nC. Evaluate the model's behavior so that the company can provide transparency to stakeholders.\n \n正确。评估模型行为以提供透明性是负责任的\nAI\n开发的重要组成部分，有助于向利益相关者展示模型的公平性和可靠\n性。\nD. Use the Recall-Oriented Understudy for Gisting Evaluation (ROUGE) technique to ensure that the model is\n100% accurate.\n \n错误。\nROUGE\n技术主要用于评估文本生成模型的质量，而不是用于减少偏差或确保公平性。此外，模型\n100%\n准确通\n常是不现实的目标。\nE. Ensure that the model's inference time is within the accepted limits.\n \n错误。推理时间的优化与减少偏差或负责任的\nAI\n开发无直接关联。\n3. \n我的答案\n我的答案\nA\nC\n4. \n官方答案\n官方答案\nA\nC\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，无需重新思考。\nhttps:/"
   },
   {
@@ -923,7 +923,7 @@
       "D": "Avoid overfitting on the training data. \n避免训练数据的过拟合。",
       "E": "Apply prompt engineering techniques. \n应用提示工程技术。"
     },
-    "answer": "A",
+    "answer": "AC",
     "explanation": "C \n正确答案：\nAC\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nCommunity vote distribution\n社区投票分布\nAC (67%)\nUC (22%)\nBE (11%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n负责任的\nAI\n开发与部署，包括公平性、偏差减轻和模型评估。\n如何优化和调整模型以避免潜在问题。\n2. \n选项分析\n选项分析\nA. Include fairness metrics for model evaluation.\n \n正确。公平性指标是负责任\nAI\n开发的重要组成部分，用于评估模型是否对不同群体公平，避免潜在的歧视或偏差。\nB. Adjust the temperature parameter of the model.\n \n错误。调整温度参数主要影响生成文本的随机性或创造性，与负责任\nAI\n开发和偏差减轻无直接关系。\nC. Modify the training data to mitigate bias.\n \n正确。修改训练数据以减轻偏差是负责任\nAI\n开发的核心步骤，可以帮助减少模型在生成结果时的偏见。\nD. Avoid overfitting on the training data.\n \n错误。虽然避免过拟合是机器学习中的重要原则，但它与负责任\nAI\n开发的具体目标（如公平性和偏差减轻）无直接关\n联。\nE. Apply prompt engineering techniques.\n \n错误。提示工程主要用于优化模型的输出，与负责任\nAI\n开发的目标无直接关系。\n3. \n我选的答案\n我选的答案\nA\nC\n4. \n官方答案\n官方答案\nA\nC\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致，无需重新思考。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps:"
   },
   {
@@ -1613,7 +1613,7 @@
       "D": "Amazon S3 Intelligent-Tiering \n\n \nAmazon S3 Intelligent-Tiering",
       "E": "Amazon S3 Standard \nAmazon S3 Standard"
     },
-    "answer": "A",
+    "answer": "AD",
     "explanation": "D \n正确答案：\nAD\n题目分析与解答\n题目分析与解答\nCommunity vote distribution\n社区投票分布\nAD (100%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\nAmazon Bedrock API\n的日志记录与存储。\n使用\nAWS\n服务实现长期、安全、低成本的日志存储。\n理解\nAWS CloudTrail\n和\nAmazon S3\n存储类的功能与成本优化。\n2. \n选项分析\n选项分析\nA. AWS CloudTrail\n正确：\nAWS CloudTrail\n是专门用于记录和管理\nAPI\n调用日志的服务，适用于记录\nAmazon Bedrock API\n的请求。\nB. Amazon CloudWatch\n错误：\nAmazon CloudWatch\n主要用于监控和管理指标数据，而不是长期存储\nAPI\n调用日志。\nC. AWS Audit Manager\n错误：\nAWS Audit Manager\n用于帮助自动化审计流程，而不是专门用于记录\nAPI\n调用日志。\nD. Amazon S3 Intelligent-Tiering\n正确：\nAmazon S3 Intelligent-Tiering\n是一种存储类，能够根据访问模式自动优化成本，非常适合长期存储日志数据。\nE. Amazon S3 Standard\n错误：\nAmazon S3 Standard\n适合频繁访问的数据，但成本较高，不适合长期存储日志数据。\n3. \n我的答案\n我的答案\nA. AWS CloudTrail\nD. Amazon S3 Intelligent-Tiering\n4. \n官方答案\n官方答案\nA. AWS CloudTrail\nD. Amazon S3 Intelligent-Tiering\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致，没有差异。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner"
   },
   {
@@ -1874,7 +1874,7 @@
       "D": "Amazon CloudWatch \nAmazon CloudWatch",
       "E": "AWS CloudTrail \nAWS CloudTrail"
     },
-    "answer": "A",
+    "answer": "AB",
     "explanation": "B \n正确答案：\nAB\nCommunity vote distribution\n社区投票分布\nUB (50%)\nAB (50%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务在合规性评估和监控方面的应用，特别是如何使用\nAWS\n工具来确保遵守公司政策和行业法\n规。\n2. \n选项分析\n选项分析\nA. AWS Audit Manager\n: \n正确。\nAWS Audit Manager\n是一项服务，专门用于帮助用户自动化审计流程，评估合规性并\n生成报告，适用于公司政策和行业法规的遵守情况。\nB. AWS Config\n: \n正确。\nAWS Config\n是一项服务，用于持续监控和记录\nAWS\n资源配置的变化，并评估资源是否符合指\n定的合规性规则。\nC. Amazon Inspector\n: \n错误。\nAmazon Inspector\n主要用于评估应用程序的安全性，而不是直接用于合规性评估。\nD. Amazon CloudWatch\n: \n错误。\nAmazon CloudWatch\n主要用于监控和管理\nAWS\n资源的性能和操作指标，而不是专门\n用于合规性评估。\nE. AWS CloudTrail\n: \n错误。\nAWS CloudTrail\n主要用于记录用户活动和\nAPI\n调用日志，虽然可以间接支持合规性，但它\n不是专门设计用于合规性评估。\n3. \n我的答案\n我的答案\nA. AWS Audit Manager\nB. AWS Config\n4. \n官方答案\n官方答案\nA. AWS Audit Manager\nB. AWS Config\n5. \n答案比较与思考\n答案比较与思考\n我的答案与官方答案一致，没有差异。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m"
   },
   {
@@ -2070,7 +2070,7 @@
       "D": "Gambling \n赌博",
       "E": "Religion \n宗教"
     },
-    "answer": "A",
+    "answer": "AC",
     "explanation": "C \n正确答案：\nAC\n题目分析与解答\n题目分析与解答\nCommunity vote distribution\n社区投票分布\nUC (67%)\nAC (33%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAmazon Bedrock Guardrails\n的功能，特别是其内容过滤能力。\n需要了解\nAmazon Bedrock Guardrails\n支持过滤的内容类别。\n2. \n选项分析\n选项分析\nA. Hate \n仇恨\n仇恨\n: \n正确。\nAmazon Bedrock Guardrails\n可以过滤仇恨内容，这是其主要功能之一。\nB. Politics \n政治\n政治\n: \n错误。\nAmazon Bedrock Guardrails\n目前不支持过滤政治内容。\nC. Violence Most Voted \n暴力\n暴力\n: \n正确。暴力内容是\nAmazon Bedrock Guardrails\n支持过滤的类别之一。\nD. Gambling \n赌博\n赌博\n: \n错误。赌博内容不在\nAmazon Bedrock Guardrails\n的过滤范围内。\nE. Religion \n宗教\n宗教\n: \n错误。宗教内容不属于\nAmazon Bedrock Guardrails\n的过滤类别。\n3. \n我的答案\n我的答案\nA. Hate \n仇恨\nC. Violence Most Voted \n暴力\n4. \n官方答案\n官方答案\nA. Hate \n仇恨\nC. Violence Most Voted \n暴力\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致，没有差异。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n "
   },
   {
@@ -2397,7 +2397,7 @@
       "D": "Host the Amazon Bedrock API on premises. \n在本地托管\nAmazon Bedrock API\n。",
       "E": "Use Amazon CloudWatch logs and metrics. \n使用\nAmazon CloudWatch\n日志和指标。"
     },
-    "answer": "B",
+    "answer": "BC",
     "explanation": "C \n正确答案：\nBC\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务在数据隐私、安全性以及区域性存储方面的应用，特别是与\nAmazon Bedrock\n、\nAWS\nPrivateLink\n和\nVPC\n相关的知识。\n同时涉及如何在成本效益的前提下满足这些需求。\n2. \n选项分析\n选项分析\nA. Host the model on premises by using AWS Outposts.\n错误：\nAWS Outposts\n是一个混合云解决方案，可以将\nAWS\n服务扩展到本地数据中心，但它并不是最成本效益的选\n择，因为部署和维护\nOutposts\n的成本较高。\n此外，题目要求数据留在\nAWS\n区域内，而\nOutposts\n主要用于本地环境。\nB. Use the Amazon Bedrock API.\n正确：\nAmazon Bedrock\n允许用户使用基础模型（\nFM\n）进行无服务器的操作，同时支持数据隐私和安全性。\nBedrock API\n直接在\nAWS\n区域内运行，符合题目要求的数据隐私和区域性存储需求。\nC. Use AWS PrivateLink and a VPC.\n正确：\nAWS PrivateLink\n和\nVPC\n可以确保数据在\nAWS\n网络内部传输，避免暴露在公共互联网中，从而提高数据隐私和\n安全性。\n这是一个成本效益较高的解决方案，符合题目要求。\nD. Host the Amazon Bedrock API on premises.\n错误：\nAmazon Bedrock API\n是一个托管服务，无法在本地运行。此选项不符合技术实现的可能性。\nE. Use Amazon CloudWatch logs and metrics.\n错误：虽然\nCloudWatch\n可以监控和记录日志，但它与数据隐私和区域性存储的要求无直接关系。\n此选项无法满足题目中关于数据隐私和安全性的核心需求。\n3. \n我的答案\n我的答案\n选项：\nB, C\n4. \n官方答案\n官方答案\n选项：\nB, C\n5. \n与官方答案比"
   },
   {
@@ -2827,7 +2827,7 @@
       "D": "Open source \n开源",
       "E": "Transparency \n透明度"
     },
-    "answer": "A",
+    "answer": "AE",
     "explanation": "E \n正确答案：\nAE\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS Certified AI Practitioner\n考试中关于\n“\n负责任的\nAI\n实践\n”\n的核心维度，包括公平性、公正性、透明性等\n原则。\n2. \n逐个分析选项\n逐个分析选项\nA. Fairness \n公平性\n公平性\n: \n正确。公平性是负责任\nAI\n的核心维度之一，尤其是在招聘和雇佣场景中，确保\nAI\n模型不会因种\n族、性别或其他因素产生偏见是至关重要的。\nB. Tolerance \n容忍度\n容忍度\n: \n错误。容忍度不是负责任\nAI\n的核心维度，且与题目中提到的\n“\n公平招聘决策\n”\n无直接关联。\nC. Flexibility \n灵活性\n灵活性\n: \n错误。灵活性是\nAI\n系统设计中的一个特性，但它不是负责任\nAI\n的核心维度，且与题目要求无关。\nD. Open source \n开源\n开源\n: \n错误。开源是技术实现的一种方式，但它并不是负责任\nAI\n的核心维度，题目中也未提到开源的\n相关需求。\nE. Transparency \n透明度\n透明度\n: \n正确。透明度是负责任\nAI\n的核心维度之一，确保\nAI\n系统的决策过程可解释和可追踪对于公平\n招聘至关重要。\n3. \n我的答案\n我的答案\nA. Fairness \n公平性\nE. Transparency \n透明度\n4. \n官方答案\n官方答案\nA. Fairness \n公平性\nE. Transparency \n透明度\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致，没有差异。\n原因：公平性和透明度是负责任\nAI\n的核心维度，符合题目要求。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714."
   },
   {
@@ -3010,7 +3010,7 @@
       "D": "Use Amazon Translate to generate voice-overs in other languages. \n使用\n Amazon Translate \n生成其他语言的配音。",
       "E": "Use Amazon Textract to generate voice-overs in other languages. \n使用\n Amazon Textract \n生成其他语言的配音。"
     },
-    "answer": "A",
+    "answer": "AC",
     "explanation": "C \n正确答案：\nAC\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS AI\n服务的功能及其应用场景，包括\nAmazon Transcribe\n、\nAmazon Translate\n、\nAmazon Polly\n和\nAmazon Textract\n的使用。\n重点在于字幕生成和语音生成的自动化流程，以及如何将内容转换为多语言版本。\n2. \n独立分析每个选项\n独立分析每个选项\nA. \n使用\n使用\n Amazon Transcribe \n和\n和\n Amazon Translate \n生成其他语言的字幕。\n生成其他语言的字幕。\nAmazon Transcribe\n可以将音频转录为文本，适用于生成原始字幕。\nAmazon Translate\n可以将文本翻译为其他语言，适用于生成多语言字幕。\n此选项正确，因为它符合生成多语言字幕的需求。\nB. \n使用\n使用\n Amazon Textract \n和\n和\n Amazon Translate \n生成其他语言的字幕。\n生成其他语言的字幕。\nAmazon Textract\n用于从文档中提取文本信息，不适用于音频转文本的场景。\n虽然\nAmazon Translate\n可以翻译文本，但\nTextract\n无法生成原始字幕。\n此选项错误，因为\nTextract\n不适合处理音频内容。\nC. \n使用\n使用\n Amazon Polly \n生成其他语言的配音。\n生成其他语言的配音。\nAmazon Polly\n可以将文本转换为语音，并支持多语言语音生成。\n此选项正确，因为它符合生成多语言配音的需求。\nD. \n使用\n使用\n Amazon Translate \n生成其他语言的配音。\n生成其他语言的配音。\nAmazon Translate\n仅用于文本翻译，不具备语音生成功能。\n此选项错误，因为\nTranslate\n无法直接生成配音。\nE. \n使用\n使用\n Amazon Textract \n生成其他语言的配音。\n生成其他语言的配音。\nAmazon Textract\n用于从文档中提取文本信息，不具备语音生成功能。\n此选项错误，因为\nTextrac"
   },
   {

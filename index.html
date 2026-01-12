@@ -14,6 +14,7 @@
     <div class="container">
         <header>
             <h1>AWS AI Practitioner 刷题助手</h1>
+            <div id="stats-text" class="stats-text"></div>
             <div class="progress-container">
                 <span id="progress-text">Question 1 of ?</span>
                 <div class="progress-bar">
@@ -51,6 +52,9 @@
             <div class="jump-control">
                 <input type="number" id="jump-input" min="1" placeholder="题号">
                 <button id="jump-btn" class="btn outline">跳转</button>
+            </div>
+            <div class="bottom-actions">
+                <button id="wrong-toggle-btn" class="btn outline">查看错题</button>
             </div>
         </footer>
     </div>
