@@ -36,14 +36,6 @@
                 </div>
             </div>
 
-            <div id="feedback-container" class="feedback-container hidden">
-                <h3>解析</h3>
-                <div id="feedback-text"></div>
-                <div id="explanation-text" class="explanation-text"></div>
-            </div>
-        </main>
-
-        <footer>
             <div class="controls">
                 <button id="prev-btn" class="btn secondary" disabled>上一题</button>
                 <button id="show-answer-btn" class="btn warning">显示答案</button>
@@ -56,7 +48,21 @@
             <div class="bottom-actions">
                 <button id="wrong-toggle-btn" class="btn outline">查看错题</button>
             </div>
-        </footer>
+
+            <div id="feedback-container" class="feedback-container hidden">
+                <h3>解析</h3>
+                <div id="feedback-text"></div>
+                <div id="explanation-text" class="explanation-text"></div>
+            </div>
+
+            <div id="manual-wrong-container" class="manual-wrong-container hidden">
+                <div class="manual-wrong-title">手动新增错题</div>
+                <div class="manual-wrong-row">
+                    <input id="manual-wrong-input" type="text" placeholder="题号用逗号分隔，例如：114,125,135">
+                    <button id="manual-wrong-btn" class="btn outline">新增</button>
+                </div>
+            </div>
+        </main>
     </div>
     <script src="app.js"></script>
 </body>

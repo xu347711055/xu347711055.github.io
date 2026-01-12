@@ -1,0 +1,499 @@
+[
+  {
+    "id": "114",
+    "header": "Topic 1 Question #114",
+    "type": "order",
+    "question": "A company wants to build an ML application.\nSelect and order the correct steps from the following list to develop a well-architected ML workload. Each step should be\nselected one time.\n热点\n热点\n-\n一家公司希望构建一个ML应用程序。\n从以下列表中选择并排序正确的步骤，以开发一个架构良好的ML工作负载。每个步骤应仅选择一次。\nCorrect Answer:",
+    "items": [
+      "Define business goal and frame ML problem",
+      "Develop model",
+      "Deploy model",
+      "Monitor model"
+    ],
+    "answer": [
+      "Define business goal and frame ML problem",
+      "Develop model",
+      "Deploy model",
+      "Monitor model"
+    ],
+    "explanation": "正确答案：\nStep 1: Define business goal and frame ML problem\nStep 2: Develop model\nStep 3: Deploy model\nStep 4: Monitor model"
+  },
+  {
+    "id": "125",
+    "header": "Topic 1 Question #125",
+    "type": "match",
+    "question": "A company has developed a large language model (LLM) and wants to make the LLM available to multiple internal\nteams. The company needs to select the appropriate inference mode for each team.\nSelect the correct inference mode from the following list for each use case. Each inference mode should be selected\none or more times.\n热点\n-\n一家公司开发了一个大型语言模型（LLM），并希望将该LLM提供给多个内部团队使用。公司需要为每个团队选择适\n当的推理模式。\n从以下列表中为每个使用案例选择正确的推理模式。每种推理模式应该被选择一次或多次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Real-time inference",
+      "Batch transform"
+    ],
+    "answer": [
+      "Real-time inference",
+      "Batch transform",
+      "Real-time inference"
+    ],
+    "explanation": "正确答案：\n第1问 -> Real-time inference\n第2问 -> Batch transform\n第3问 -> Real-time inference"
+  },
+  {
+    "id": "135",
+    "header": "Topic 1 Question #135",
+    "type": "match",
+    "question": "A company wants to develop ML applications to improve business operations and efficiency.\nSelect the correct ML paradigm from the following list for each use case. Each ML paradigm should be selected one or\nmore times.\n热点\n-\n一家公司希望开发ML应用程序以改善业务运营和效率。\n从以下列表中为每个用例选择正确的ML范式。每个ML范式应选择一次或多次。\nCorrect Answer:",
+    "prompts": [
+      "Binary classification",
+      "Multi-class classification",
+      "K-means clustering",
+      "Dimensionality reduction"
+    ],
+    "choices": [
+      "Supervised learning",
+      "Unsupervised learning"
+    ],
+    "answer": [
+      "Supervised learning",
+      "Supervised learning",
+      "Unsupervised learning",
+      "Unsupervised learning"
+    ],
+    "explanation": "正确答案：\nBinary classification -> Supervised learning\nMulti-class classification -> Supervised learning\nK-means clustering -> Unsupervised learning\nDimensionality reduction -> Unsupervised learning"
+  },
+  {
+    "id": "143",
+    "header": "Topic 1 Question #143",
+    "type": "match",
+    "question": "A company is training its employees on how to structure prompts for foundation models.\nSelect the correct prompt engineering technique from the following list for each prompt template. Each prompt\nengineering technique should be selected one time.\n热点\n-\n一家公司正在培训其员工如何为基础模型构建提示。\n从以下列表中为每个提示模板选择正确的提示工程技术。每种提示工程技术应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Zero-shot learning",
+      "Few-shot learning",
+      "Chain-of-thought reasoning"
+    ],
+    "answer": [
+      "Zero-shot learning",
+      "Few-shot learning",
+      "Chain-of-thought reasoning"
+    ],
+    "explanation": "正确答案：\n第1问 -> Zero-shot learning\n第2问 -> Few-shot learning\n第3问 -> Chain-of-thought reasoning"
+  },
+  {
+    "id": "144",
+    "header": "Topic 1 Question #144",
+    "type": "match",
+    "question": "A company is using a generative AI model to develop a digital assistant. The model’s responses occasionally include\nundesirable and potentially harmful content.\nSelect the correct Amazon Bedrock filter policy from the following list for each mitigation action. Each filter policy should\nbe selected one time.\n热点\n-\n一家公司正在使用生成式 AI 模型开发数字助手。该模型的响应偶尔会包含不良和潜在有害内容。\n从以下列表中为每个缓解措施选择正确的 Amazon Bedrock 过滤策略。每个过滤策略应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问",
+      "第4问"
+    ],
+    "choices": [
+      "Content filters",
+      "Denied topics",
+      "Word filters",
+      "Contextual grounding check"
+    ],
+    "answer": [
+      "Content filters",
+      "Denied topics",
+      "Word filters",
+      "Contextual grounding check"
+    ],
+    "explanation": "正确答案：\n第1问 -> Content filters\n第2问 -> Denied topics\n第3问 -> Word filters\n第4问 -> Contextual grounding check"
+  },
+  {
+    "id": "155",
+    "header": "Topic 1 Question #155",
+    "type": "match",
+    "question": "A company wants more customized responses to its generative AI models’ prompts.\nSelect the correct customization methodology from the following list for each use case. Each use case should be\nselected one time.\n热点\n-\n一家公司希望对其生成式AI模型的提示获得更多定制化的响应。\n从以下列表中为每个使用案例选择正确的定制方法。每个使用案例应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Model fine-tuning",
+      "Data augmentation",
+      "Continued pre-training"
+    ],
+    "answer": [
+      "Model fine-tuning",
+      "Data augmentation",
+      "Continued pre-training"
+    ],
+    "explanation": "正确答案：\n第1问 -> Model fine-tuning\n第2问 -> Data augmentation\n第3问 -> Continued pre-training"
+  },
+  {
+    "id": "185",
+    "header": "Topic 1 Question #185",
+    "type": "match",
+    "question": "A company needs to customize a base model that is hosted on Amazon Bedrock.\nSelect the correct model customization method from the following list of company requirements. Each model\ncustomization method should be selected one or more times.\n热点\n-\n一家公司需要定制托管在 Amazon Bedrock 上的基础模型。\n根据以下公司的需求选择正确的模型定制方法。每种模型定制方法应根据需要选择一次或多次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Fine-tuning",
+      "Continued pre-training"
+    ],
+    "answer": [
+      "Fine-tuning",
+      "Continued pre-training",
+      "Continued pre-training"
+    ],
+    "explanation": "正确答案：\n第1问 -> Fine-tuning\n第2问 -> Continued pre-training\n第3问 -> Continued pre-training"
+  },
+  {
+    "id": "188",
+    "header": "Topic 1 Question #188",
+    "type": "match",
+    "question": "A company is designing a customer service chatbot by using a fine-tuned large language model (LLM). The company\nwants to ensure that the chatbot uses responsible AI characteristics.\nSelect the correct responsible AI characteristic from the following list for each application design action. Each\nresponsible AI characteristic should be selected one time or not at all.\n热点\n-\n一家公司正在使用经过微调的大型语言模型（LLM）设计一个客户服务聊天机器人。该公司希望确保聊天机器人使用\n负责任的AI特性。\n负责任的AI特性。\n从以下列表中为每个应用设计操作选择正确的负责任AI特性。每个负责任AI特性应被选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Anonymize personal information during training data preparation",
+      "Design the customer service chatbot to provide explainable decisions",
+      "Use Amazon Bedrock Guardrails to prevent harmful output and misuse of the chatbot"
+    ],
+    "choices": [
+      "Privacy and security",
+      "Transparency",
+      "Safety"
+    ],
+    "answer": [
+      "Privacy and security",
+      "Transparency",
+      "Safety"
+    ],
+    "explanation": "正确答案：\nAnonymize personal information during training data preparation -> Privacy and security\nDesign the customer service chatbot to provide explainable decisions -> Transparency\nUse Amazon Bedrock Guardrails to prevent harmful output and misuse of the chatbot -> Safety"
+  },
+  {
+    "id": "191",
+    "header": "Topic 1 Question #191",
+    "type": "match",
+    "question": "A company wants to use Amazon SageMaker features for various use cases.\nSelect the correct SageMaker feature from the following list for each use case. Each SageMaker feature should be\nselected one time or not at all.\n热点\n-\n一家公司希望使用 Amazon SageMaker 功能来满足各种用例。\n从以下列表中选择每个用例的正确 SageMaker 功能。每个 SageMaker 功能应被选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Preparing data through a visual interface without using code",
+      "Finding and using a prebuilt solution for fraud detection",
+      "Create labeled datasets with human intervention"
+    ],
+    "choices": [
+      "SageMaker Canvas",
+      "SageMaker JumpStart",
+      "SageMaker Ground Truth"
+    ],
+    "answer": [
+      "SageMaker Canvas",
+      "SageMaker JumpStart",
+      "SageMaker Ground Truth"
+    ],
+    "explanation": "正确答案：\nPreparing data through a visual interface without using code -> SageMaker Canvas\nFinding and using a prebuilt solution for fraud detection -> SageMaker JumpStart\nCreate labeled datasets with human intervention -> SageMaker Ground Truth"
+  },
+  {
+    "id": "229",
+    "header": "Topic 1 Question #229",
+    "type": "match",
+    "question": "A company is using Amazon SageMaker to develop AI models.\nSelect the correct SageMaker feature or resource from the following list for each step in the AI model lifecycle workflow.\nEach SageMaker feature or resource should be selected one time or not at all.\n热点\n-\n一家公司正在使用 Amazon SageMaker 开发 AI 模型。\n从以下列表中为 AI 模型生命周期工作流的每个步骤选择正确的 SageMaker 功能或资源。每个 SageMaker 功能或资\n源应被选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Managing different versions of the model",
+      "Using the current model to make predictions"
+    ],
+    "choices": [
+      "SageMaker Model Registry",
+      "SageMaker Serverless Inference"
+    ],
+    "answer": [
+      "SageMaker Model Registry",
+      "SageMaker Serverless Inference"
+    ],
+    "explanation": "正确答案：\nManaging different versions of the model -> SageMaker Model Registry\nUsing the current model to make predictions -> SageMaker Serverless Inference"
+  },
+  {
+    "id": "235",
+    "header": "Topic 1 Question #235",
+    "type": "match",
+    "question": "A company wants to develop a solution that uses generative AI to create content for product advertisements, including\nsample images and slogans.\nSelect the correct model type from the following list for each action. Each model type should be selected one time.\n热点\n-\n一家公司希望开发一个解决方案，使用生成式AI为产品广告创建内容，包括样本图像和标语。\n从以下列表中为每个操作选择正确的模型类型。每种模型类型应仅选择一次。\n从以下列表中为每个操作选择正确的模型类型。每种模型类型应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Create high-quality images that are influenced by the generated slogans and product",
+      "Create contextually relevant slogans based on the advertisement product",
+      "Ensure that company brand elements are properly placed in the images"
+    ],
+    "choices": [
+      "Diffusion model",
+      "Transformer-based model",
+      "Object detection model"
+    ],
+    "answer": [
+      "Diffusion model",
+      "Transformer-based model",
+      "Object detection model"
+    ],
+    "explanation": "正确答案：\nCreate high-quality images that are influenced by the generated slogans and product -> Diffusion model\nCreate contextually relevant slogans based on the advertisement product -> Transformer-based model\nEnsure that company brand elements are properly placed in the images -> Object detection model"
+  },
+  {
+    "id": "245",
+    "header": "Topic 1 Question #245",
+    "type": "match",
+    "question": "A company is developing an AI application to help the company approve or deny personal loans. The application must\nfollow the principles of responsible AI.\nSelect the correct responsible AI principle from the following list for each action. Select each responsible AI principle\none time or not at all.\n热点\n-\n一家公司正在开发一个AI应用程序，以帮助公司批准或拒绝个人贷款。该应用程序必须遵循负责任AI的原则。\n一家公司正在开发一个AI应用程序，以帮助公司批准或拒绝个人贷款。该应用程序必须遵循负责任AI的原则。\n从以下列表中为每个操作选择正确的负责任AI原则。每个负责任AI原则可以选择一次或不选择。\nCorrect Answer:",
+    "prompts": [
+      "Encrypt the application data, and isolate the application on a private network",
+      "Evaluate how different population groups will be impacted",
+      "Test the application with unexpected data to ensure the application will work in unique situations"
+    ],
+    "choices": [
+      "Privacy and security",
+      "Fairness",
+      "Robustness"
+    ],
+    "answer": [
+      "Privacy and security",
+      "Fairness",
+      "Robustness"
+    ],
+    "explanation": "正确答案：\nEncrypt the application data, and isolate the application on a private network -> Privacy and security\nEvaluate how different population groups will be impacted -> Fairness\nTest the application with unexpected data to ensure the application will work in unique situations -> Robustness"
+  },
+  {
+    "id": "257",
+    "header": "Topic 1 Question #257",
+    "type": "match",
+    "question": "Select the correct AWS service or tool from the following list for each use case. Select each AWS service or tool one\ntime or not at all.\n热点\n-\n从以下列表中为每个使用案例选择正确的 AWS 服务或工具。每个 AWS 服务或工具可以选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Apply human feedback across the ML lifecycle to improve the accuracy and relevancy of models.",
+      "Implement safeguards that align with responsible AI policies.",
+      "Detect potential bias during data preparation and model training."
+    ],
+    "choices": [
+      "Amazon SageMaker Ground Truth",
+      "Amazon Bedrock Guardrails",
+      "Amazon SageMaker Clarify"
+    ],
+    "answer": [
+      "Amazon SageMaker Ground Truth",
+      "Amazon Bedrock Guardrails",
+      "Amazon SageMaker Clarify"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
+    "id": "264",
+    "header": "Topic 1 Question #264",
+    "type": "match",
+    "question": "A company uses ML techniques to build applications.\nSelect the correct ML technique from the following list for each task. Select each ML technique one time.\n热点\n-\n一家公司使用机器学习技术来构建应用程序。\n一家公司使用机器学习技术来构建应用程序。\n从以下列表中为每个任务选择正确的机器学习技术。每个机器学习技术只能选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Analyze a text question to determine if the answer is correct.",
+      "Analyze ecological factors to determine the number of species in a certain area.",
+      "Analyze car attributes to determine the car model."
+    ],
+    "choices": [
+      "Binary classification",
+      "Regression",
+      "Multiclass classification"
+    ],
+    "answer": [
+      "Binary classification",
+      "Regression",
+      "Multiclass classification"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
+    "id": "267",
+    "header": "Topic 1 Question #267",
+    "type": "match",
+    "question": "A company is building an AI solution by using Amazon SageMaker AI. The company wants to use SageMaker AI\nfeatures to facilitate application development.\nSelect the correct SageMaker AI feature from the following list for each use case. Select each feature one time.\n热点\n-\n一家公司正在使用 Amazon SageMaker AI 构建一个 AI 解决方案。该公司希望利用 SageMaker AI 的功能来促进应用\n程序开发。\n程序开发。\n从以下列表中为每个使用场景选择正确的 SageMaker AI 功能。每个功能仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Determine the most suitable model to use for a business case",
+      "Prepare data through a low-code or no-code interface",
+      "Identify biases or imbalances in the data"
+    ],
+    "choices": [
+      "Model Cards",
+      "Data Wrangler",
+      "Clarify"
+    ],
+    "answer": [
+      "Model Cards",
+      "Data Wrangler",
+      "Clarify"
+    ],
+    "explanation": "正确答案：\nDetermine the most suitable model to use for a business case -> Model Cards\nPrepare data through a low-code or no-code interface -> Data Wrangler\nIdentify biases or imbalances in the data -> Clarify"
+  },
+  {
+    "id": "275",
+    "header": "Topic 1 Question #275",
+    "type": "match",
+    "question": "An ecommerce company is developing a generative AI solution to create personalized product recommendations for its\napplication users. The company wants to track how effectively the AI solution increases product sales and user\nengagement in the application.\nSelect the correct business metric from the following list for each business goal. Each business metric should be\nselected one time.\n热点\n-\n一家电子商务公司正在开发一个生成式 AI 解决方案，以为其应用用户创建个性化的产品推荐。该公司希望跟踪 AI 解\n决方案在提高产品销售和用户参与度方面的效果。\n决方案在提高产品销售和用户参与度方面的效果。\n为每个业务目标从以下列表中选择正确的业务指标。每个业务指标应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Measure how engaging the product recommendations are to users",
+      "Determine the effect of the AI solution on the total value of user purchases",
+      "Assess the AI solution's ability to encourage users to return to the platform"
+    ],
+    "choices": [
+      "Click-through rate (CTR)",
+      "Average order value (AOV)",
+      "Retention rate"
+    ],
+    "answer": [
+      "Click-through rate (CTR)",
+      "Average order value (AOV)",
+      "Retention rate"
+    ],
+    "explanation": "正确答案：\nMeasure how engaging the product recommendations are to users -> Click-through rate (CTR)\nDetermine the effect of the AI solution on the total value of user purchases -> Average order value (AOV)\nAssess the AI solution's ability to encourage users to return to the platform -> Retention rate"
+  },
+  {
+    "id": "280",
+    "header": "Topic 1 Question #280",
+    "type": "match",
+    "question": "A company wants to improve multiple ML models.\nSelect the correct technique from the following list of use cases. Each technique should be selected one time or not at\nall.\n热点\n-\n一家公司希望改进多个ML模型。\n从以下用例列表中选择正确的技术。每种技术应选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Enhancing the capabilities of a large language model (LLM) by using external sources",
+      "Querying a model to generalize and make predictions on unseen tasks",
+      "Querying a model with a limited amount of data for new tasks"
+    ],
+    "choices": [
+      "Retrieval Augmented Generation (RAG)",
+      "Zero-shot learning",
+      "Few-shot learning"
+    ],
+    "answer": [
+      "Retrieval Augmented Generation (RAG)",
+      "Zero-shot learning",
+      "Few-shot learning"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
+    "id": "283",
+    "header": "Topic 1 Question #283",
+    "type": "match",
+    "question": "Select the correct AI term from the following list for each statement. Each AI term should be selected one time.\n热点\n-\n从以下列表中为每个陈述选择正确的AI术语。每个AI术语应仅被选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Simulates human problem-solving capabilities",
+      "Applies data-driven learning techniques to make predictions",
+      "Focuses on processing data through intricate neural networks"
+    ],
+    "choices": [
+      "AI",
+      "ML",
+      "Deep learning"
+    ],
+    "answer": [
+      "AI",
+      "ML",
+      "Deep learning"
+    ],
+    "explanation": "正确答案：\nSimulates human problem-solving capabilities -> AI\nApplies data-driven learning techniques to make predictions -> ML\nFocuses on processing data through intricate neural networks -> Deep learning"
+  },
+  {
+    "id": "291",
+    "header": "Topic 1 Question #291",
+    "type": "match",
+    "question": "An AI practitioner is determining the appropriate data type for various use cases.\nSelect the correct data type from the following list for each use case. Select each data type one time.\n热点\n-\n一位AI从业者正在为各种使用场景确定合适的数据类型。\n从以下列表中为每个使用场景选择正确的数据类型。每种数据类型只能选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Build a sentiment analysis model for social media posts.",
+      "Train a self-driving car to recognize traffic signs.",
+      "Optimize ad campaigns by using customer demographic data and purchase history.",
+      "Forecast stock prices by using historical price data."
+    ],
+    "choices": [
+      "Text data",
+      "Image data",
+      "Tabular data",
+      "Time series data"
+    ],
+    "answer": [
+      "Text data",
+      "Image data",
+      "Tabular data",
+      "Time series data"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
+    "id": "300",
+    "header": "Topic 1 Question #300",
+    "type": "match",
+    "question": "A company is building a generative AI application and is reviewing foundation models (FMs). The company needs to\nconsider multiple FM characteristics.\nSelect the correct FM characteristic from the following list for each definition. Each FM characteristic should be selected\none time.\n热点\n-\n一家公司正在构建一个生成式 AI 应用，并正在审查基础模型（FMs）。该公司需要考虑多个 FM 特性。\n从以下列表中为每个定义选择正确的 FM 特性。每个 FM 特性应仅选择一次。\n从以下列表中为每个定义选择正确的 FM 特性。每个 FM 特性应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Amount of information that can fit in a single prompt",
+      "Length of time it takes for a model to generate an output",
+      "Multiple users invoking an application endpoint simultaneously"
+    ],
+    "choices": [
+      "Context windows",
+      "Latency",
+      "Concurrency"
+    ],
+    "answer": [
+      "Context windows",
+      "Latency",
+      "Concurrency"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
+    "id": "309",
+    "header": "Topic 1 Question #309",
+    "type": "order",
+    "question": "Select and order the steps from the following list to correctly describe the ML lifecycle for a new custom model. Select\neach step one time.\n热点\n-\n-\n从以下列表中选择并排列步骤，以正确描述新自定义模型的机器学习生命周期。每个步骤选择一次。\nCorrect Answer:",
+    "items": [
+      "Define the business objective",
+      "Process the data",
+      "Develop and train the model",
+      "Deploy the model"
+    ],
+    "answer": [
+      "Define the business objective",
+      "Process the data",
+      "Develop and train the model",
+      "Deploy the model"
+    ],
+    "explanation": "正确答案：\nStep 1: Define the business objective\nStep 2: Process the data\nStep 3: Develop and train the model\nStep 4: Deploy the model"
+  },
+  {
+    "id": "311",
+    "header": "Topic 1 Question #311",
+    "type": "match",
+    "question": "Select the correct prompt engineering technique from the following list for each description. Select each prompt\nengineering technique one time or not at all.\n热点\n-\n从以下列表中为每个描述选择正确的提示工程技术。每个提示工程技术可以选择一次或不选择。\n从以下列表中为每个描述选择正确的提示工程技术。每个提示工程技术可以选择一次或不选择。\nCorrect Answer:",
+    "prompts": [
+      "描述1",
+      "描述2",
+      "描述3"
+    ],
+    "choices": [
+      "Few-shot prompting",
+      "Chain-of-thought prompting",
+      "Zero-shot prompting"
+    ],
+    "answer": [
+      "Few-shot prompting",
+      "Chain-of-thought prompting",
+      "Zero-shot prompting"
+    ],
+    "explanation": "正确答案：\n描述1 -> Few-shot prompting\n描述2 -> Chain-of-thought prompting\n描述3 -> Zero-shot prompting"
+  },
+  {
+    "id": "313",
+    "header": "Topic 1 Question #313",
+    "type": "order",
+    "question": "A company periodically updates its product database by manually uploading digital product guides. The product guides\ncontain text and images. The company wants to automate this task by using generative AI.\nSelect and order the steps from the following list to automate the database update task by using generative AI. Select\neach step one time.\n热点\n-\n一家公司定期通过手动上传数字产品指南来更新其产品数据库。产品指南包含文本和图像。该公司希望通过使用生成\n式 AI 来自动化此任务。\n从以下列表中选择并排序步骤，以使用生成式 AI 自动化数据库更新任务。每个步骤选择一次。\nCorrect Answer:",
+    "items": [
+      "Upload the digital text and image files to an Amazon S3 bucket.",
+      "Use Amazon Nova multimodal models to process the digital text and image files.",
+      "Insert data into the product database."
+    ],
+    "answer": [
+      "Upload the digital text and image files to an Amazon S3 bucket.",
+      "Use Amazon Nova multimodal models to process the digital text and image files.",
+      "Insert data into the product database."
+    ],
+    "explanation": "正确答案：\nStep 1: Upload the digital text and image files to an Amazon S3 bucket.\nStep 2: Use Amazon Nova multimodal models to process the digital text and image files.\nStep 3: Insert data into the product database."
+  }
+]

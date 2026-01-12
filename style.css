@@ -225,6 +225,112 @@ footer {
     margin-top: 1rem;
 }
 
+.hotspot-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.hotspot-row {
+    border: 2px solid #e0e0e0;
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+    display: grid;
+    grid-template-columns: 1fr minmax(160px, 240px);
+    gap: 0.75rem;
+    align-items: start;
+    background: var(--card-bg);
+}
+
+.hotspot-row.correct {
+    border-color: var(--correct-color);
+    background-color: #e8f5e9;
+}
+
+.hotspot-row.wrong {
+    border-color: var(--wrong-color);
+    background-color: #ffebee;
+}
+
+.hotspot-left {
+    font-size: 0.98rem;
+}
+
+.hotspot-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hotspot-select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.hotspot-correct-text {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.order-row {
+    border: 2px solid #e0e0e0;
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+    display: grid;
+    grid-template-columns: 56px 1fr auto;
+    gap: 0.75rem;
+    align-items: start;
+    background: var(--card-bg);
+}
+
+.order-row.correct {
+    border-color: var(--correct-color);
+    background-color: #e8f5e9;
+}
+
+.order-row.wrong {
+    border-color: var(--wrong-color);
+    background-color: #ffebee;
+}
+
+.order-row.dragging {
+    opacity: 0.6;
+}
+
+.order-handle {
+    background: #f0f0f0;
+    border-radius: 6px;
+    padding: 0.4rem 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    user-select: none;
+}
+
+.order-content {
+    font-size: 0.98rem;
+}
+
+.order-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.order-btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+}
+
 .jump-control {
     display: flex;
     justify-content: center;
@@ -246,11 +352,60 @@ footer {
     text-align: center;
 }
 
+.manual-wrong-container {
+    background: var(--card-bg);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    margin-bottom: var(--spacing);
+}
+
+.manual-wrong-container.hidden {
+    display: none;
+}
+
+.manual-wrong-title {
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+}
+
+.manual-wrong-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+#manual-wrong-input {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 @media (max-width: 600px) {
     .controls {
         flex-direction: column;
     }
     .btn {
         width: 100%;
+    }
+
+    .hotspot-row {
+        grid-template-columns: 1fr;
+    }
+
+    .order-row {
+        grid-template-columns: 1fr;
+    }
+
+    .order-actions {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .manual-wrong-row {
+        flex-direction: column;
+        align-items: stretch;
     }
 }

@@ -1473,6 +1473,25 @@
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\nCommunity vote distribution\nCommunity vote distribution\nA (89%)\nU (11%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是机器学习模型的可解释性和可调整性，尤其是如何根据业务需求调整模型的权重。\n重点在于选择一个模型类型，能够让用户根据领域知识调整变量权重。\n2. \n选项分析\n选项分析\nA. Logistic regression model\nLogistic\n回归是一种线性模型，具有高度的可解释性。\n它允许用户查看每个变量的权重，并根据领域知识调整权重。\n因此，这个选项是正确的。\nB. Deep learning model built on principal components\n深度学习模型通常是复杂的黑盒模型，难以解释和调整权重。\n虽然主成分分析可以降低维度，但它并不直接支持用户调整权重。\n因此，这个选项是错误的。\nC. K-nearest neighbors (k-NN) model\nKNN\n是一种基于实例的模型，它通过计算样本之间的距离进行分类或回归。\n它不涉及变量权重的概念，因此无法满足题目要求。\n因此，这个选项是错误的。\nD. Neural network\n神经网络是一种复杂的非线性模型，通常是黑盒模型。\n用户无法直接查看或调整变量权重，且模型的可解释性较低。\n因此，这个选项是错误的。\n3. \n我选的答案\n我选的答案\nA. Logistic regression model\n4. \n官方答案\n官方答案\nA. Logistic regression model\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致。\n理由：\nLogistic\n回归模型具有可解释性和可调整性，完全符合题目要求。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C0"
   },
   {
+    "id": "114",
+    "header": "Topic 1 Question #114",
+    "type": "order",
+    "question": "A company wants to build an ML application.\nSelect and order the correct steps from the following list to develop a well-architected ML workload. Each step should be\nselected one time.\n热点\n热点\n-\n一家公司希望构建一个ML应用程序。\n从以下列表中选择并排序正确的步骤，以开发一个架构良好的ML工作负载。每个步骤应仅选择一次。\nCorrect Answer:",
+    "items": [
+      "Define business goal and frame ML problem",
+      "Develop model",
+      "Deploy model",
+      "Monitor model"
+    ],
+    "answer": [
+      "Define business goal and frame ML problem",
+      "Develop model",
+      "Deploy model",
+      "Monitor model"
+    ],
+    "explanation": "正确答案：\nStep 1: Define business goal and frame ML problem\nStep 2: Develop model\nStep 3: Deploy model\nStep 4: Monitor model"
+  },
+  {
     "id": "115",
     "header": "Topic 1 Question #115",
     "question": "Which strategy will determine if a foundation model (FM) effectively meets business objectives?\n哪种策略可以确定基础模型\n (FM) \n是否有效满足业务目标？",
@@ -1603,6 +1622,27 @@
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\nCommunity vote distribution\n社区投票分布\nA (67%)\nB (33%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是如何处理机器学习模型中的偏差问题，尤其是在使用大型语言模型（\nLLM\n）时，如何通过数据和模型调\n整来解决公平性问题。\n同时涉及成本效益的考虑，即在解决问题时选择最经济的方案。\n2. \n选项分析\n选项分析\nA. Include more diverse training data. Fine-tune the model again by using the new data.\n正确性分析：这是解决模型偏差问题的直接方法。通过引入更多多样化的训练数据，可以减少模型对某些特定群体的\n偏好。微调模型的成本通常低于重新预训练一个新的模型。\n成本效益分析：微调现有模型比重新训练一个新的模型更具成本效益。\n结论：正确。\nB. Use Retrieval Augmented Generation (RAG) with the fine-tuned model.\n正确性分析：\nRAG\n是一种结合检索和生成的技术，通常用于提高模型的知识覆盖范围或生成质量，但它并不能直接解\n决模型的偏差问题。\n成本效益分析：虽然\nRAG\n可以增强模型的功能，但它并不是解决偏差问题的最佳方法。\n结论：错误。\nC. Use AWS Trusted Advisor checks to eliminate bias.\n正确性分析：\nAWS Trusted Advisor\n主要用于优化\nAWS\n资源的使用，例如成本、性能和安全性，但它并不提供直接的\n工具来消除机器学习模型中的偏差。\n成本效益分析：此选项与问题无关，因此不适用。\n结论：错误。\nD. Pre-train a new LLM with more diverse training data.\n正确性分析：重新预训练一个新的\nLLM\n确实可以解决偏差问题，但预训练一个新的模型需要大量的计算资源和时间，\n成本非常高。\n成本效益分析：此选项的成本远高于微调现有模型，因此不符合题目要求的"
   },
   {
+    "id": "125",
+    "header": "Topic 1 Question #125",
+    "type": "match",
+    "question": "A company has developed a large language model (LLM) and wants to make the LLM available to multiple internal\nteams. The company needs to select the appropriate inference mode for each team.\nSelect the correct inference mode from the following list for each use case. Each inference mode should be selected\none or more times.\n热点\n-\n一家公司开发了一个大型语言模型（LLM），并希望将该LLM提供给多个内部团队使用。公司需要为每个团队选择适\n当的推理模式。\n从以下列表中为每个使用案例选择正确的推理模式。每种推理模式应该被选择一次或多次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Real-time inference",
+      "Batch transform"
+    ],
+    "answer": [
+      "Real-time inference",
+      "Batch transform",
+      "Real-time inference"
+    ],
+    "explanation": "正确答案：\n第1问 -> Real-time inference\n第2问 -> Batch transform\n第3问 -> Real-time inference"
+  },
+  {
     "id": "126",
     "header": "Topic 1 Question #126",
     "question": "A company needs to log all requests made to its Amazon Bedrock API. The company must retain the logs securely for 5\nyears at the lowest possible cost. \nWhich combination of AWS service and storage class meets these requirements? (Choose two.)\n一家公司需要记录所有对其\n Amazon Bedrock API \n的请求。公司必须以最低的成本安全地保留日志\n5\n年。\n \n哪种\nAWS\n服务和存储类别的组合满足这些要求？（选择两个。）",
@@ -1721,6 +1761,29 @@
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nCommunity vote distribution\n社区投票分布\nB (100%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是机器学习模型的训练策略，特别是如何保持基础模型（\nFoundation Model\n，\nFM\n）与最新数据相关性。\n重点在于理解不同训练方法的特点，例如批量学习、持续预训练、静态训练和潜在训练。\n2. \n选项分析\n选项分析\nA. Batch learning \n批量学习\n批量学习\n批量学习是指模型在固定的数据集上进行训练，通常一次性完成训练。\n这种方法不适合需要定期更新模型以保持与最新数据相关性的场景。\n错误原因：\n错误原因：\n无法满足题目中\n“\n定期更新模型\n”\n的要求。\nB. Continuous pre-training \n持续预训练\n持续预训练\n持续预训练是一种动态训练方法，模型会定期使用最新数据进行更新，以保持其性能和相关性。\n这种方法非常适合需要长期维护和更新的基础模型。\n正确原因：\n正确原因：\n符合题目中\n“\n定期更新模型以保持与最新数据相关性\n”\n的要求。\nC. Static training \n静态训练\n静态训练\n静态训练是指模型在固定的数据集上训练一次，之后不再更新。\n这种方法无法适应数据的变化，模型可能会随着时间失去相关性。\n错误原因：\n错误原因：\n无法满足题目中\n“\n定期更新模型\n”\n的要求。\nD. Latent training \n潜在训练\n潜在训练\n潜在训练并不是一个常见的机器学习术语，可能是一个误导性的选项。\n没有明确的定义或应用场景支持这种方法。\n错误原因：\n错误原因：\n不符合题目要求，且缺乏实际意义。\n3. \n我的答案\n我的答案\nB. Continuous pre-training \n持续预训练\n持续预训练\n4. \n官方答案\n官方答案\nB. Continuous pre-training \n持续预训练\n持续预训练\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致。\n没有需要重新思考的地方。\nhttps://shop542998"
   },
   {
+    "id": "135",
+    "header": "Topic 1 Question #135",
+    "type": "match",
+    "question": "A company wants to develop ML applications to improve business operations and efficiency.\nSelect the correct ML paradigm from the following list for each use case. Each ML paradigm should be selected one or\nmore times.\n热点\n-\n一家公司希望开发ML应用程序以改善业务运营和效率。\n从以下列表中为每个用例选择正确的ML范式。每个ML范式应选择一次或多次。\nCorrect Answer:",
+    "prompts": [
+      "Binary classification",
+      "Multi-class classification",
+      "K-means clustering",
+      "Dimensionality reduction"
+    ],
+    "choices": [
+      "Supervised learning",
+      "Unsupervised learning"
+    ],
+    "answer": [
+      "Supervised learning",
+      "Supervised learning",
+      "Unsupervised learning",
+      "Unsupervised learning"
+    ],
+    "explanation": "正确答案：\nBinary classification -> Supervised learning\nMulti-class classification -> Supervised learning\nK-means clustering -> Unsupervised learning\nDimensionality reduction -> Unsupervised learning"
+  },
+  {
     "id": "136",
     "header": "Topic 1 Question #136",
     "question": "Which option is a characteristic of AI governance frameworks for building trust and deploying human-centered AI\ntechnologies?\n哪些选项是构建信任和部署以人为本的\nAI\n技术的\nAI\n治理框架的特点？",
@@ -1810,6 +1873,53 @@
     },
     "answer": "A",
     "explanation": "正确答案：\nA\nCommunity vote distribution\n社区投票分布\nA (100%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务中自动化敏感信息检测的能力，尤其是\nAmazon Macie\n的功能。\n重点在于选择一种最少开发工作量的解决方案，同时能够自动化检测敏感信息。\n2. \n选项分析\n选项分析\nA. Configure Amazon Macie to detect sensitive information in the documents that are uploaded to Amazon\nS3.\n正确：\nAmazon Macie\n是一项完全托管的服务，专门用于自动化检测存储在\nAmazon S3\n中的敏感信息（如\nPII\n、财务数\n据等）。\n最少开发工作量：只需配置\nMacie\n即可实现自动化检测和警报，无需额外开发。\nB. Use Amazon SageMaker endpoints to deploy a large language model (LLM) to redact sensitive data.\n错误：虽然\nSageMaker\n可以部署\nLLM\n，但需要大量开发工作，包括模型训练、部署和维护。\n不符合\n“\n最少开发工作量\n”\n的要求。\nC. Develop multiple regex patterns to detect sensitive data. Expose the regex patterns on an Amazon\nSageMaker notebook.\n错误：使用正则表达式检测敏感信息需要手动开发和维护多个模式，工作量较大。\n不符合\n“\n最少开发工作量\n”\n的要求。\nD. Ask the customers to avoid sharing sensitive information in their email messages.\n错误：此选项无法自动化检测敏感信息，也无法保证客户会遵守要求。\n不符合题目要求的\n“\n自动化检测\n”\n目标。\n3. \n我的答案\n我的答案\nA."
+  },
+  {
+    "id": "143",
+    "header": "Topic 1 Question #143",
+    "type": "match",
+    "question": "A company is training its employees on how to structure prompts for foundation models.\nSelect the correct prompt engineering technique from the following list for each prompt template. Each prompt\nengineering technique should be selected one time.\n热点\n-\n一家公司正在培训其员工如何为基础模型构建提示。\n从以下列表中为每个提示模板选择正确的提示工程技术。每种提示工程技术应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Zero-shot learning",
+      "Few-shot learning",
+      "Chain-of-thought reasoning"
+    ],
+    "answer": [
+      "Zero-shot learning",
+      "Few-shot learning",
+      "Chain-of-thought reasoning"
+    ],
+    "explanation": "正确答案：\n第1问 -> Zero-shot learning\n第2问 -> Few-shot learning\n第3问 -> Chain-of-thought reasoning"
+  },
+  {
+    "id": "144",
+    "header": "Topic 1 Question #144",
+    "type": "match",
+    "question": "A company is using a generative AI model to develop a digital assistant. The model’s responses occasionally include\nundesirable and potentially harmful content.\nSelect the correct Amazon Bedrock filter policy from the following list for each mitigation action. Each filter policy should\nbe selected one time.\n热点\n-\n一家公司正在使用生成式 AI 模型开发数字助手。该模型的响应偶尔会包含不良和潜在有害内容。\n从以下列表中为每个缓解措施选择正确的 Amazon Bedrock 过滤策略。每个过滤策略应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问",
+      "第4问"
+    ],
+    "choices": [
+      "Content filters",
+      "Denied topics",
+      "Word filters",
+      "Contextual grounding check"
+    ],
+    "answer": [
+      "Content filters",
+      "Denied topics",
+      "Word filters",
+      "Contextual grounding check"
+    ],
+    "explanation": "正确答案：\n第1问 -> Content filters\n第2问 -> Denied topics\n第3问 -> Word filters\n第4问 -> Contextual grounding check"
   },
   {
     "id": "145",
@@ -1941,6 +2051,28 @@
     },
     "answer": "A",
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务的功能与应用场景，特别是与语言处理相关的服务。\nCommunity vote distribution\n社区投票分布\nA (67%)\nU (33%)\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n本题考察的是\nAWS\n服务的功能与应用场景，特别是与语言处理相关的服务。\n2. \n选项分析\n选项分析\nA. Amazon Translate\n: \n正确。\nAmazon Translate \n是一种神经机器翻译服务，可以将文本从一种语言翻译成另一种语\n言，非常适合自动生成多语言的产品描述。\nB. Amazon Transcribe\n: \n错误。\nAmazon Transcribe \n是一种语音转文本服务，用于将音频内容转录为文本，与翻译任\n务无关。\nC. Amazon Kendra\n: \n错误。\nAmazon Kendra \n是一种智能搜索服务，用于搜索企业内部文档，与翻译任务无关。\nD. Amazon Polly\n: \n错误。\nAmazon Polly \n是一种文本转语音服务，用于将文本转换为自然的语音，与翻译任务无关。\n3. \n我的答案\n我的答案\nA. Amazon Translate\n4. \n官方答案\n官方答案\nA. Amazon Translate\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，无需重新思考。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n \" \nhttps://www.goofish.com/personal?\nuserId=2645260430 \n微信\n: \" Examtopics \"\nwechat"
+  },
+  {
+    "id": "155",
+    "header": "Topic 1 Question #155",
+    "type": "match",
+    "question": "A company wants more customized responses to its generative AI models’ prompts.\nSelect the correct customization methodology from the following list for each use case. Each use case should be\nselected one time.\n热点\n-\n一家公司希望对其生成式AI模型的提示获得更多定制化的响应。\n从以下列表中为每个使用案例选择正确的定制方法。每个使用案例应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Model fine-tuning",
+      "Data augmentation",
+      "Continued pre-training"
+    ],
+    "answer": [
+      "Model fine-tuning",
+      "Data augmentation",
+      "Continued pre-training"
+    ],
+    "explanation": "正确答案：\n第1问 -> Model fine-tuning\n第2问 -> Data augmentation\n第3问 -> Continued pre-training"
   },
   {
     "id": "156",
@@ -2322,6 +2454,27 @@
     "explanation": "正确答案：\nC\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是机器学习技术中如何确保数据合规性和隐私性，特别是在\nAWS\n环境中训练\nAI\n模型时的相关技术。\n2. \n选项分析\n选项分析\nA. Reinforcement learning (\n强化学习\n强化学习\n)\n: \n错误。强化学习是一种通过奖励和惩罚来训练模型的技术，与数据隐私和合\n规性无直接关系。\nB. Transfer learning (\n迁移学习\n迁移学习\n)\n: \n错误。迁移学习是利用预训练模型来解决新问题的技术，与数据隐私和合规性无直\n接关联。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\nC. Federated learning (\n联邦学习\n联邦学习\n)\n: \n正确。联邦学习是一种分布式机器学习技术，允许模型在多个设备上进行训练，\n而无需将数据集中到一个地方，从而确保数据隐私和合规性。\nD. Unsupervised learning (\n无监督学习\n无监督学习\n)\n: \n错误。无监督学习是一种通过未标注数据进行训练的技术，与数据隐私和\n合规性无直接关系。\n3. \n我的答案\n我的答案\nC. Federated learning (\n联邦学习\n联邦学习\n)\n4. \n官方答案\n官方答案\nC. Federated learning (\n联邦学习\n联邦学习\n)\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致，无需重新思考。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n \" \nhttps://www.goofish.com/personal?\nuserId=2645260430 \n微信\n: \" Examtopics \"\nwechat"
   },
   {
+    "id": "185",
+    "header": "Topic 1 Question #185",
+    "type": "match",
+    "question": "A company needs to customize a base model that is hosted on Amazon Bedrock.\nSelect the correct model customization method from the following list of company requirements. Each model\ncustomization method should be selected one or more times.\n热点\n-\n一家公司需要定制托管在 Amazon Bedrock 上的基础模型。\n根据以下公司的需求选择正确的模型定制方法。每种模型定制方法应根据需要选择一次或多次。\nCorrect Answer:",
+    "prompts": [
+      "第1问",
+      "第2问",
+      "第3问"
+    ],
+    "choices": [
+      "Fine-tuning",
+      "Continued pre-training"
+    ],
+    "answer": [
+      "Fine-tuning",
+      "Continued pre-training",
+      "Continued pre-training"
+    ],
+    "explanation": "正确答案：\n第1问 -> Fine-tuning\n第2问 -> Continued pre-training\n第3问 -> Continued pre-training"
+  },
+  {
     "id": "186",
     "header": "Topic 1 Question #186",
     "question": "A manufacturing company has an application that ingests consumer complaints from publicly available sources. The\napplication uses complex hard-coded logic to process the complaints. The company wants to scale this logic across\nmarkets and product lines. \nWhich advantage do generative AI models offer for this scenario?\n一家制造公司有一个应用程序，该应用程序从公开可用的来源摄取消费者投诉。\n \n该应用程序使用复杂的硬编码逻辑来\n处理这些投诉。\n \n该公司希望将此逻辑扩展到不同的市场和产品线。\n \n生成式\nAI\n模型在此场景中提供了哪些优势？",
@@ -2348,6 +2501,28 @@
     "explanation": "正确答案：\nC\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是机器学习模型的类型选择，特别是根据业务需求选择适合的模型类型。\n重点在于理解二元分类\n(Binary Classification)\n的应用场景。\n2. \n选项分析\n选项分析\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n2. \n选项分析\n选项分析\nA. Regression \n回归\n回归\n: \n回归模型用于预测连续数值，例如房价或温度。由于题目要求将交易标记为\n“\n可能是欺诈\n”\n或\n“\n非欺\n诈\n”\n，这是一个分类问题，而不是数值预测问题，因此此选项错误。\nB. Diffusion \n扩散\n扩散\n: \n扩散模型通常用于生成数据或模拟复杂的动态过程，与分类问题无关。此选项错误。\nC. Binary classification \n二元分类\n二元分类\n: \n二元分类模型用于将数据分为两个类别，例如\n“\n欺诈\n”\n和\n“\n非欺诈\n”\n。这正是题目要求\n的功能，因此此选项正确。\nD. Multi-class classification \n多类分类\n多类分类\n: \n多类分类模型用于将数据分为多个类别，例如\n“\n类别\nA”\n、\n“\n类别\nB”\n、\n“\n类别\nC”\n等。题目只涉及两个类别（欺诈和非欺诈），因此此选项错误。\n3. \n我的答案\n我的答案\n我的答案是：\nC. Binary classification \n二元分类\n二元分类\n4. \n官方答案\n官方答案\n官方答案是：\nC. Binary classification \n二元分类\n二元分类\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致，无需重新思考。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n \" \nhttps://www"
   },
   {
+    "id": "188",
+    "header": "Topic 1 Question #188",
+    "type": "match",
+    "question": "A company is designing a customer service chatbot by using a fine-tuned large language model (LLM). The company\nwants to ensure that the chatbot uses responsible AI characteristics.\nSelect the correct responsible AI characteristic from the following list for each application design action. Each\nresponsible AI characteristic should be selected one time or not at all.\n热点\n-\n一家公司正在使用经过微调的大型语言模型（LLM）设计一个客户服务聊天机器人。该公司希望确保聊天机器人使用\n负责任的AI特性。\n负责任的AI特性。\n从以下列表中为每个应用设计操作选择正确的负责任AI特性。每个负责任AI特性应被选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Anonymize personal information during training data preparation",
+      "Design the customer service chatbot to provide explainable decisions",
+      "Use Amazon Bedrock Guardrails to prevent harmful output and misuse of the chatbot"
+    ],
+    "choices": [
+      "Privacy and security",
+      "Transparency",
+      "Safety"
+    ],
+    "answer": [
+      "Privacy and security",
+      "Transparency",
+      "Safety"
+    ],
+    "explanation": "正确答案：\nAnonymize personal information during training data preparation -> Privacy and security\nDesign the customer service chatbot to provide explainable decisions -> Transparency\nUse Amazon Bedrock Guardrails to prevent harmful output and misuse of the chatbot -> Safety"
+  },
+  {
     "id": "189",
     "header": "Topic 1 Question #189",
     "question": "A hospital wants to use a generative AI solution with speech-to-text functionality to help improve employee skills in\ndictating clinical notes. \nWhich AWS service meets these requirements?\n一家医院希望使用具有语音转文字功能的生成式\n AI \n解决方案，\n \n以帮助提高员工在临床笔记口述方面的技能。\n \n哪个\n AWS \n服务符合这些需求？",
@@ -2372,6 +2547,28 @@
     },
     "answer": "B",
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAI\n模型的类型及其应用场景，特别是能够进行数值预测的模型。\n2. \n选项分析\n选项分析\nA. Diffusion \n扩散\n扩散\n: \n错误。扩散模型主要用于生成任务，例如图像生成或数据合成，不适合用于数值预测。\nB. Regression \n回归\n回归\n: \n正确。回归模型是专门用于数值预测的，例如预测房价、销售额等连续变量。\nC. Transformer Transformer\n: \n错误。\nTransformer\n模型主要用于自然语言处理任务，例如文本生成、翻译等，不是专\n门用于数值预测。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\nD. Multi-modal \n多模态\n多模态\n: \n错误。多模态模型用于处理多种数据类型（例如图像和文本），但不是专门用于数值预测。\n3. \n我的答案\n我的答案\nB. Regression \n回归\n回归\n4. \n官方答案\n官方答案\nB. Regression \n回归\n回归\n5. \n与官方答案比较\n与官方答案比较\n我的答案与官方答案一致，无需重新思考。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n \" \nhttps://www.goofish.com/personal?\nuserId=2645260430 \n微信\n: \" Examtopics \"\nwechat"
+  },
+  {
+    "id": "191",
+    "header": "Topic 1 Question #191",
+    "type": "match",
+    "question": "A company wants to use Amazon SageMaker features for various use cases.\nSelect the correct SageMaker feature from the following list for each use case. Each SageMaker feature should be\nselected one time or not at all.\n热点\n-\n一家公司希望使用 Amazon SageMaker 功能来满足各种用例。\n从以下列表中选择每个用例的正确 SageMaker 功能。每个 SageMaker 功能应被选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Preparing data through a visual interface without using code",
+      "Finding and using a prebuilt solution for fraud detection",
+      "Create labeled datasets with human intervention"
+    ],
+    "choices": [
+      "SageMaker Canvas",
+      "SageMaker JumpStart",
+      "SageMaker Ground Truth"
+    ],
+    "answer": [
+      "SageMaker Canvas",
+      "SageMaker JumpStart",
+      "SageMaker Ground Truth"
+    ],
+    "explanation": "正确答案：\nPreparing data through a visual interface without using code -> SageMaker Canvas\nFinding and using a prebuilt solution for fraud detection -> SageMaker JumpStart\nCreate labeled datasets with human intervention -> SageMaker Ground Truth"
   },
   {
     "id": "192",
@@ -2857,6 +3054,25 @@
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\nAmazon Bedrock\n的功能与服务，包括\nFoundation Models (FM)\n、\nKnowledge Bases\n、\nAgents\n等。\n如何通过\nAmazon Bedrock\n实现定制化的生成式\nAI\n解决方案。\n成本效益分析：选择最经济的解决方案。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Use Amazon Bedrock Knowledge Bases.\n \nAmazon Bedrock Knowledge Bases\n允许用户将外部数据集或公司信息与预训练的\nFM\n结合，以增强模型的上下文理解\n能力。这种方法不需要重新训练模型，成本较低，且直接满足题目要求。此选项是正确的。\nB. Choose a different FM on Amazon Bedrock.\n \n选择不同的\nFM\n可能会提供更好的性能，但无法直接解决题目中\n“\n使用公司信息增强上下文\n”\n的需求。此外，切换\nFM\n可能\n会增加成本和复杂性，因此此选项不符合题目要求。\nC. Use Amazon Bedrock Agents.\n \nAmazon Bedrock Agents\n主要用于构建任务驱动型的交互式应用程序，而不是直接用于增强\nFM\n的上下文能力。虽然\nAgents\n可以与外部数据集交互，但它们的主要用途与题目需求不完全匹配，因此此选项不正确。\nD. Deploy a custom model on Amazon Bedrock.\n \n部署自定义模型需要重新训练或微调模型，这通常成本较高且复杂度较高。题目要求的是\n“\n最具成本效益\n”\n的解决方\n案，因此此选项不符合要求。\n3. \n我的选择\n我的选择\n答案：\n答案：\nA\n4. \n官方答案\n官方答案\n答案：\n答案：\nA\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致。\n原因：\nAmazon Bedrock Knowledge Bases\n直接满足题目需求，且成本效益最高。\nhttps://shop5"
   },
   {
+    "id": "229",
+    "header": "Topic 1 Question #229",
+    "type": "match",
+    "question": "A company is using Amazon SageMaker to develop AI models.\nSelect the correct SageMaker feature or resource from the following list for each step in the AI model lifecycle workflow.\nEach SageMaker feature or resource should be selected one time or not at all.\n热点\n-\n一家公司正在使用 Amazon SageMaker 开发 AI 模型。\n从以下列表中为 AI 模型生命周期工作流的每个步骤选择正确的 SageMaker 功能或资源。每个 SageMaker 功能或资\n源应被选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Managing different versions of the model",
+      "Using the current model to make predictions"
+    ],
+    "choices": [
+      "SageMaker Model Registry",
+      "SageMaker Serverless Inference"
+    ],
+    "answer": [
+      "SageMaker Model Registry",
+      "SageMaker Serverless Inference"
+    ],
+    "explanation": "正确答案：\nManaging different versions of the model -> SageMaker Model Registry\nUsing the current model to make predictions -> SageMaker Serverless Inference"
+  },
+  {
     "id": "230",
     "header": "Topic 1 Question #230",
     "question": "A food service company wants to collect a dataset to predict customer food preferences. The company wants to ensure\nthat the food preferences of all demographics are included in the data. \nWhich dataset characteristic does this scenario present?\n一家食品服务公司希望收集一个数据集来预测客户的食品偏好。该公司希望确保数据中包含所有人口统计学的食品偏\n好。\n \n此场景体现了数据集的哪个特性？",
@@ -2920,6 +3136,28 @@
     },
     "answer": "B",
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n本题考察的是如何确保生成式\nAI\n模型（如基础模型）在提供响应时避免\n“\n幻觉\n”\n（\nhallucination\n），并符合监管合规要\n求。\n重点在于使用\nAWS\n服务来实现对用户输入和模型输出的监控与约束。\n2. \n独立分析每个选项\n独立分析每个选项\nA. \n使用\n使用\n AWS Config \n通过自然语言查询合规元数据\n通过自然语言查询合规元数据\n分析：\nAWS Config\n主要用于记录和审计资源配置的合规性，帮助用户跟踪\nAWS\n资源的状态变化。它并不直接与生成\n式\nAI\n模型的输出监控相关，也无法防止模型\n“\n幻觉\n”\n。\n结论：错误。\nB. \n配置\n配置\n Amazon Bedrock Guardrails \n来评估用户输入和模型响应\n来评估用户输入和模型响应\n分析：\nAmazon Bedrock Guardrails\n是专门设计用于生成式\nAI\n模型的安全性和合规性管理工具。它可以评估用户输入和\n模型输出，确保生成的内容符合预期并避免\n“\n幻觉\n”\n。这是解决问题的正确方法。\n结论：正确。\nC. \n使用\n使用\n Amazon Fraud Detector \n检测潜在的欺诈性在线活动\n检测潜在的欺诈性在线活动\n分析：\nAmazon Fraud Detector\n主要用于检测在线交易中的欺诈行为，与生成式\nAI\n模型的输出监控无关。它无法解决模\n型\n“\n幻觉\n”\n问题。\n结论：错误。\nD. \n使用\n使用\n AWS Audit Manager \n准备\n准备\n IT \n审计和合规报告\n审计和合规报告\n分析：\nAWS Audit Manager\n用于生成审计和合规报告，帮助用户跟踪合规性状态。它是一个报告工具，而不是实时监\n控生成式\nAI\n模型输出的工具，无法防止\n“\n幻觉\n”\n。\n结论：错误。\n3. \n我的选择\n我的选择\n答案：\nB\n4. \n官方答案\n官方答案\n答案：\nB\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致。\n原因：\nAmazon Bedrock Guardrails\n"
+  },
+  {
+    "id": "235",
+    "header": "Topic 1 Question #235",
+    "type": "match",
+    "question": "A company wants to develop a solution that uses generative AI to create content for product advertisements, including\nsample images and slogans.\nSelect the correct model type from the following list for each action. Each model type should be selected one time.\n热点\n-\n一家公司希望开发一个解决方案，使用生成式AI为产品广告创建内容，包括样本图像和标语。\n从以下列表中为每个操作选择正确的模型类型。每种模型类型应仅选择一次。\n从以下列表中为每个操作选择正确的模型类型。每种模型类型应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Create high-quality images that are influenced by the generated slogans and product",
+      "Create contextually relevant slogans based on the advertisement product",
+      "Ensure that company brand elements are properly placed in the images"
+    ],
+    "choices": [
+      "Diffusion model",
+      "Transformer-based model",
+      "Object detection model"
+    ],
+    "answer": [
+      "Diffusion model",
+      "Transformer-based model",
+      "Object detection model"
+    ],
+    "explanation": "正确答案：\nCreate high-quality images that are influenced by the generated slogans and product -> Diffusion model\nCreate contextually relevant slogans based on the advertisement product -> Transformer-based model\nEnsure that company brand elements are properly placed in the images -> Object detection model"
   },
   {
     "id": "236",
@@ -3038,6 +3276,28 @@
     },
     "answer": "A",
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\n1. \n这题考察的知识点是什么\n这题考察的知识点是什么\n本题考察的是对基础模型（\nFoundation Model, FM\n）生命周期的理解，特别是如何使用监督学习在特定任务上微调模\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n型。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Fine-tuning \n微调\n微调\n \n正确。微调是指在一个预训练模型的基础上，使用特定任务的小型标注数据集进行训练，以适应目标任务。题目描述\n的\n“\n使用监督学习在小型标注数据集上训练模型\n”\n正是微调的核心定义。\nB. Data selection \n数据选择\n数据选择\n \n错误。数据选择是指在模型训练之前选择或准备适合的训练数据集。题目中并未提到数据选择的过程，而是直接描述\n了模型训练的阶段。\nC. Pre-training \n预训练\n预训练\n \n错误。预训练是指在大规模通用数据集上训练模型以学习通用特征。题目明确提到使用的是\n“\n小型标注数据集\n”\n，这与\n预训练的定义不符。\nD. Evaluation \n评估\n评估\n \n错误。评估是指在模型训练完成后，使用测试数据集来评估模型性能。题目描述的是训练阶段，而非评估阶段。\n3. \n我选的答案\n我选的答案\nA. Fine-tuning \n微调\n4. \n官方答案\n官方答案\nA. Fine-tuning \n微调\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，均为\nA\n。题目描述与微调的定义完全吻合，因此无需更改答案。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n \" \nhttps://www.goofish.com/personal?\nuserId=2645260430 \n微信\n: "
+  },
+  {
+    "id": "245",
+    "header": "Topic 1 Question #245",
+    "type": "match",
+    "question": "A company is developing an AI application to help the company approve or deny personal loans. The application must\nfollow the principles of responsible AI.\nSelect the correct responsible AI principle from the following list for each action. Select each responsible AI principle\none time or not at all.\n热点\n-\n一家公司正在开发一个AI应用程序，以帮助公司批准或拒绝个人贷款。该应用程序必须遵循负责任AI的原则。\n一家公司正在开发一个AI应用程序，以帮助公司批准或拒绝个人贷款。该应用程序必须遵循负责任AI的原则。\n从以下列表中为每个操作选择正确的负责任AI原则。每个负责任AI原则可以选择一次或不选择。\nCorrect Answer:",
+    "prompts": [
+      "Encrypt the application data, and isolate the application on a private network",
+      "Evaluate how different population groups will be impacted",
+      "Test the application with unexpected data to ensure the application will work in unique situations"
+    ],
+    "choices": [
+      "Privacy and security",
+      "Fairness",
+      "Robustness"
+    ],
+    "answer": [
+      "Privacy and security",
+      "Fairness",
+      "Robustness"
+    ],
+    "explanation": "正确答案：\nEncrypt the application data, and isolate the application on a private network -> Privacy and security\nEvaluate how different population groups will be impacted -> Fairness\nTest the application with unexpected data to ensure the application will work in unique situations -> Robustness"
   },
   {
     "id": "246",
@@ -3183,6 +3443,28 @@
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\n1. \n这题考察的知识点是什么\n这题考察的知识点是什么\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n这题考察的知识点是什么\n这题考察的知识点是什么\n本题考察的是如何确保生成式\nAI\n模型的输出具有责任性和公平性，涉及数据偏差检测、模型透明性以及性能监控等方\n面的知识。\n2. \n独立分析每个选项\n独立分析每个选项\nA. \n审查训练数据以检查是否存在偏差。在训练数据中包含所有人口统计数据。\n审查训练数据以检查是否存在偏差。在训练数据中包含所有人口统计数据。\n \n分析：这是确保模型公平性和责任性的核心步骤。训练数据的偏差会直接影响模型的输出，因此审查数据并确保其覆\n盖所有人口统计数据是解决偏差问题的关键。此选项是正确的。\nB. \n使用具有许多隐藏层的深度学习模型。\n使用具有许多隐藏层的深度学习模型。\n \n分析：深度学习模型的复杂性与公平性和责任性没有直接关系。增加隐藏层可能提高模型的性能，但无法解决数据偏\n差或输出公平性的问题。因此此选项是错误的。\nC. \n将模型的决策过程保密以保护专有算法。\n将模型的决策过程保密以保护专有算法。\n \n分析：保密决策过程可能会导致缺乏透明性，无法验证模型是否公平或负责任。对于生成式\nAI\n应用，透明性是确保公\n平性的重要因素。因此此选项是错误的。\nD. \n持续监控模型在静态测试数据集上的性能。\n持续监控模型在静态测试数据集上的性能。\n \n分析：虽然监控模型性能是重要的，但仅使用静态测试数据集无法解决数据偏差或确保公平性。动态监控和数据更新\n更为关键。因此此选项是错误的。\n3. \n我选的答案\n我选的答案\nA\n4. \n官方答案\n官方答案\nA\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，原因是审查训练数据并确保其覆盖所有人口统计数据是解决偏差问题的核心步骤，符合题\n目要求。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘"
   },
   {
+    "id": "257",
+    "header": "Topic 1 Question #257",
+    "type": "match",
+    "question": "Select the correct AWS service or tool from the following list for each use case. Select each AWS service or tool one\ntime or not at all.\n热点\n-\n从以下列表中为每个使用案例选择正确的 AWS 服务或工具。每个 AWS 服务或工具可以选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Apply human feedback across the ML lifecycle to improve the accuracy and relevancy of models.",
+      "Implement safeguards that align with responsible AI policies.",
+      "Detect potential bias during data preparation and model training."
+    ],
+    "choices": [
+      "Amazon SageMaker Ground Truth",
+      "Amazon Bedrock Guardrails",
+      "Amazon SageMaker Clarify"
+    ],
+    "answer": [
+      "Amazon SageMaker Ground Truth",
+      "Amazon Bedrock Guardrails",
+      "Amazon SageMaker Clarify"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
     "id": "258",
     "header": "Topic 1 Question #258",
     "question": "An AI practitioner who has minimal ML knowledge wants to predict employee attrition without writing code. \nWhich Amazon SageMaker feature meets this requirement?\n一位对机器学习知识了解较少的\nAI\n从业者希望预测员工流失率，而无需编写代码。\n \n哪项\n Amazon SageMaker \n功能满足此需求？",
@@ -3261,6 +3543,28 @@
     "explanation": "正确答案：\nC\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是生成式\nAI\n模型的控制能力，特别是如何通过输入提示（\nprompt engineering\n）来影响模型的输出。\n负面提示（\nNegative Prompt\n）的使用是生成式\nAI\n模型中常见的技术，用于排除特定元素或内容。\n2. \n独立分析每个选项\n独立分析每个选项\nA. \n使用更高的温度值\n使用更高的温度值\n温度值控制生成模型的输出随机性。较高的温度值会使模型生成更随机、更多样化的结果。\n然而，温度值并不能直接控制模型是否包含特定元素，因此无法满足题目要求。\n错误原因：\n错误原因：\n与题目需求无关。\nB. \n使用更详细的提示\n使用更详细的提示\n更详细的提示可以帮助模型生成更符合预期的内容，但它通常是用于指导模型生成特定内容，而不是排除内容。\n虽然详细提示可能间接减少不需要的元素，但它无法明确地排除特定元素。\n错误原因：\n错误原因：\n无法直接满足\n“\n排除特定元素\n”\n的需求。\nC. \n使用负面提示\n使用负面提示\n负面提示是一种明确的技术，用于告诉模型不要包含某些特定元素。\n例如，在生成图像时，可以通过负面提示排除某些物体或特征。\n正确原因：\n正确原因：\n负面提示是解决问题的最佳方法，直接满足题目需求。\nD. \n使用另一个基础模型\n使用另一个基础模型\n (FM)\n更换基础模型可能会改变生成结果，但这并不是解决问题的直接方法。\n题目要求的是控制现有模型的输出，而不是更换模型。\n错误原因：\n错误原因：\n与题目需求不符。\n3. \n我的选择\n我的选择\n答案：\n答案：\n C. \n使用负面提示\n4. \n官方答案\n官方答案\n官方答案：\n官方答案：\n C. \n使用负面提示\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致。\n原因：负面提示是生成式\nAI\n模型中明确排除特定元素的最佳方法，符合题目需求。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId="
   },
   {
+    "id": "264",
+    "header": "Topic 1 Question #264",
+    "type": "match",
+    "question": "A company uses ML techniques to build applications.\nSelect the correct ML technique from the following list for each task. Select each ML technique one time.\n热点\n-\n一家公司使用机器学习技术来构建应用程序。\n一家公司使用机器学习技术来构建应用程序。\n从以下列表中为每个任务选择正确的机器学习技术。每个机器学习技术只能选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Analyze a text question to determine if the answer is correct.",
+      "Analyze ecological factors to determine the number of species in a certain area.",
+      "Analyze car attributes to determine the car model."
+    ],
+    "choices": [
+      "Binary classification",
+      "Regression",
+      "Multiclass classification"
+    ],
+    "answer": [
+      "Binary classification",
+      "Regression",
+      "Multiclass classification"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
     "id": "265",
     "header": "Topic 1 Question #265",
     "question": "A company wants to label training datasets by using human feedback to fine-tune a foundation model (FM). The\ncompany does not want to develop labeling applications or manage a labeling workforce. \nWhich AWS service or feature meets these requirements?\n一家公司希望通过使用人工反馈来微调基础模型（\nFM\n）以标记训练数据集。该公司不希望开发标记应用程序或管理标\n记工作团队。\n \n哪项\nAWS\n服务或功能满足这些需求？",
@@ -3285,6 +3589,28 @@
     },
     "answer": "D",
     "explanation": "正确答案：\nD\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务中支持向量数据库、相似性搜索和最近邻查询的能力。\n需要理解各个服务的功能及其适用场景，尤其是与自然语言处理和搜索相关的服务。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Amazon Comprehend\nAmazon Comprehend\n是一个自然语言处理服务，用于分析文本情感、提取关键字等。\n它不支持向量数据库，也不适用于相似性搜索或最近邻查询。\n错误原因：\n错误原因：\n功能不匹配。\nB. Amazon Personalize\nAmazon Personalize\n是一个推荐系统服务，用于生成个性化推荐。\n虽然它可以基于用户行为生成推荐，但它不是一个向量数据库，也不支持自然语言图像搜索。\n错误原因：\n错误原因：\n功能不匹配。\nC. Amazon Polly\nAmazon Polly\n是一个文本转语音服务，用于将文本转换为自然语音。\n它与向量数据库、相似性搜索或最近邻查询完全无关。\n错误原因：\n错误原因：\n功能不匹配。\nD. Amazon OpenSearch Service\nAmazon OpenSearch Service\n支持全文搜索、分析和日志处理，并且可以通过集成向量搜索功能实现相似性搜索和最\n近邻查询。\n它可以处理自然语言搜索，并支持基于向量的图像搜索和过滤。\n正确原因：\n正确原因：\n功能完全匹配题目需求。\n3. \n我的选择\n我的选择\n答案：\n答案：\n D. Amazon OpenSearch Service\n4. \n官方答案\n官方答案\n官方答案：\n官方答案：\n D. Amazon OpenSearch Service\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致。\n原因：\nAmazon OpenSearch Service\n是唯一符合题目需求的服务，支持向量搜索和最近邻查询。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645"
+  },
+  {
+    "id": "267",
+    "header": "Topic 1 Question #267",
+    "type": "match",
+    "question": "A company is building an AI solution by using Amazon SageMaker AI. The company wants to use SageMaker AI\nfeatures to facilitate application development.\nSelect the correct SageMaker AI feature from the following list for each use case. Select each feature one time.\n热点\n-\n一家公司正在使用 Amazon SageMaker AI 构建一个 AI 解决方案。该公司希望利用 SageMaker AI 的功能来促进应用\n程序开发。\n程序开发。\n从以下列表中为每个使用场景选择正确的 SageMaker AI 功能。每个功能仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Determine the most suitable model to use for a business case",
+      "Prepare data through a low-code or no-code interface",
+      "Identify biases or imbalances in the data"
+    ],
+    "choices": [
+      "Model Cards",
+      "Data Wrangler",
+      "Clarify"
+    ],
+    "answer": [
+      "Model Cards",
+      "Data Wrangler",
+      "Clarify"
+    ],
+    "explanation": "正确答案：\nDetermine the most suitable model to use for a business case -> Model Cards\nPrepare data through a low-code or no-code interface -> Data Wrangler\nIdentify biases or imbalances in the data -> Clarify"
   },
   {
     "id": "268",
@@ -3378,6 +3704,28 @@
     "explanation": "正确答案：\nC\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n服务的功能与适用场景，尤其是与生成式\nAI\n模型评估相关的服务。\n需要理解\nAmazon Bedrock\n、\nAmazon Personalize\n、\nAmazon Rekognition\n和\nAmazon Comprehend\n的功能及其适用场\n景。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Use automatic evaluation on Amazon Personalize.\nAmazon Personalize\n主要用于构建推荐系统，帮助生成个性化推荐内容。\n它不具备评估生成式\nAI\n模型输出的功能，因此此选项不适合。\n错误原因：\n错误原因：\n与生成式\nAI\n模型评估无关。\nB. Use content moderation on Amazon Rekognition.\nAmazon Rekognition\n主要用于图像和视频分析，包括内容审核功能。\n内容审核功能可以检测图像或视频中的不适当内容，但无法评估文本生成模型的输出质量。\n错误原因：\n错误原因：\n与文本生成模型评估无关。\nC. Use model evaluation on Amazon Bedrock.\nAmazon Bedrock\n是\nAWS\n提供的生成式\nAI\n服务，支持多种生成式\nAI\n模型的集成和评估。\n它提供了模型评估功能，可以帮助用户测试和比较不同生成式\nAI\n模型的输出。\n正确原因：\n正确原因：\n符合题目要求，能够评估生成式\nAI\n模型的输出。\nD. Use sentiment analysis on Amazon Comprehend.\nAmazon Comprehend\n主要用于自然语言处理任务，例如情感分析、实体识别等。\n情感分析功能可以检测文本的情感倾向，但无法全面评估生成式\nAI\n模型的输出质量。\n错误原因：\n错误原因：\n情感分析功能不适合评估生成式\nAI\n模型的整体输出质量。\n3. \n我的选择\n我的选择\n答案：\n答案：\nC. Use model evaluation on Am"
   },
   {
+    "id": "275",
+    "header": "Topic 1 Question #275",
+    "type": "match",
+    "question": "An ecommerce company is developing a generative AI solution to create personalized product recommendations for its\napplication users. The company wants to track how effectively the AI solution increases product sales and user\nengagement in the application.\nSelect the correct business metric from the following list for each business goal. Each business metric should be\nselected one time.\n热点\n-\n一家电子商务公司正在开发一个生成式 AI 解决方案，以为其应用用户创建个性化的产品推荐。该公司希望跟踪 AI 解\n决方案在提高产品销售和用户参与度方面的效果。\n决方案在提高产品销售和用户参与度方面的效果。\n为每个业务目标从以下列表中选择正确的业务指标。每个业务指标应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Measure how engaging the product recommendations are to users",
+      "Determine the effect of the AI solution on the total value of user purchases",
+      "Assess the AI solution's ability to encourage users to return to the platform"
+    ],
+    "choices": [
+      "Click-through rate (CTR)",
+      "Average order value (AOV)",
+      "Retention rate"
+    ],
+    "answer": [
+      "Click-through rate (CTR)",
+      "Average order value (AOV)",
+      "Retention rate"
+    ],
+    "explanation": "正确答案：\nMeasure how engaging the product recommendations are to users -> Click-through rate (CTR)\nDetermine the effect of the AI solution on the total value of user purchases -> Average order value (AOV)\nAssess the AI solution's ability to encourage users to return to the platform -> Retention rate"
+  },
+  {
     "id": "276",
     "header": "Topic 1 Question #276",
     "question": "An AI practitioner wants to evaluate ML models. The AI practitioner wants to provide explanations of model predictions\nto customers and stakeholders. \nWhich AWS service or feature will meet these requirements?\n一位\nAI\n从业者希望评估机器学习模型。该\nAI\n从业者希望向客户和利益相关者提供模型预测的解释。\n \n哪项\nAWS\n服务或功能可以满足这些需求？",
@@ -3430,6 +3778,28 @@
     "explanation": "正确答案：\nA\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n在自然语言处理（\nNLP\n）领域的应用，尤其是情感分析的解决方案。\n涉及机器学习算法的选择与适用场景，包括大型语言模型（\nLLM\n）、回归算法、推荐引擎算法和时间序列算法。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n2. \n独立分析每个选项\n独立分析每个选项\nA. \n使用大型语言模型（\n使用大型语言模型（\nLLM\n）执行自然语言处理（\n）执行自然语言处理（\nNLP\n）以进行情感分析。\n）以进行情感分析。\nLLM\n（如\nAWS\n的\nAmazon Comprehend\n或其他基于\nTransformer\n的模型）非常适合处理非结构化文本数据，并能够执行\n情感分析。\nLLM\n可以直接从用户反馈中提取情感信息，无需额外的预定义类别或复杂的算法调整。\n此选项是正确的，因为它直接解决了问题需求：分析非结构化文本的情感。\nB. \n使用回归算法根据预定义的类别对反馈进行分类。然后，分析用户情感。\n使用回归算法根据预定义的类别对反馈进行分类。然后，分析用户情感。\n回归算法通常用于预测连续值，而不是分类任务。情感分析通常是分类任务（如正面、负面、中性）。\n此外，回归算法需要预定义类别，这与题目中处理非结构化文本的需求不完全匹配。\n此选项不适合情感分析任务，因此是错误的。\nC. \n使用推荐引擎算法检测用户情感。\n使用推荐引擎算法检测用户情感。\n推荐引擎算法通常用于推荐系统（如产品推荐），而不是处理文本情感分析。\n推荐引擎无法直接分析非结构化文本的情感，因此此选项与题目需求不符。\n此选项是错误的。\nD. \n使用时间序列算法根据过去的反馈预测用户情感。\n使用时间序列算法根据过去的反馈预测用户情感。\n时间序列算法通常用于处理时间相关的数据（如股票价格预测），而不是非结构化文本的情感分析。\n题目中并未提到时间相关性，因此此选项与题目需求不符。\n此选项是错误的。\n3. \n我选的答案\n我选的答案\nA\n4. \n官方答案\n官方答案\nA\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，均为\nA\n。\n原因：大型语言模型（\nLLM\n）是当前处理非结构"
   },
   {
+    "id": "280",
+    "header": "Topic 1 Question #280",
+    "type": "match",
+    "question": "A company wants to improve multiple ML models.\nSelect the correct technique from the following list of use cases. Each technique should be selected one time or not at\nall.\n热点\n-\n一家公司希望改进多个ML模型。\n从以下用例列表中选择正确的技术。每种技术应选择一次或完全不选择。\nCorrect Answer:",
+    "prompts": [
+      "Enhancing the capabilities of a large language model (LLM) by using external sources",
+      "Querying a model to generalize and make predictions on unseen tasks",
+      "Querying a model with a limited amount of data for new tasks"
+    ],
+    "choices": [
+      "Retrieval Augmented Generation (RAG)",
+      "Zero-shot learning",
+      "Few-shot learning"
+    ],
+    "answer": [
+      "Retrieval Augmented Generation (RAG)",
+      "Zero-shot learning",
+      "Few-shot learning"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
     "id": "281",
     "header": "Topic 1 Question #281",
     "question": "A company wants to create an AI solution to generate images and descriptions for a product catalog. The company\nneeds to select a foundation model (FM) for this solution. \nThe company must consider the output types of each FM. \nWhich FM characteristic is the company evaluating?\n一家公司希望创建一个\n AI \n解决方案，用于生成产品目录的图像和描述。该公司需要为此解决方案选择一个基础模型\n（\nFM\n）。\n \n该公司必须考虑每个基础模型的输出类型。\n \n该公司正在评估哪种基础模型特性？",
@@ -3454,6 +3824,28 @@
     },
     "answer": "D",
     "explanation": "正确答案：\nD\n题目分析与解答\n题目分析与解答\n1. \n这题考察的知识点是什么\n这题考察的知识点是什么\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n这题考察的知识点是什么\n这题考察的知识点是什么\n本题考察的是机器学习模型的评估策略，特别是针对文本数据的情感分析任务。\n情感分析是一种分类问题，目标是将文本分类为\n“\n中性\n”\n、\n“\n积极\n”\n或\n“\n消极\n”\n。\n2. \n逐个分析每个选项为什么正确或错误\n逐个分析每个选项为什么正确或错误\nA. Open-ended generation \n开放式生成\n开放式生成\n \n错误。开放式生成通常用于生成自由文本，例如回答问题或生成内容。这与情感分析的分类任务无关，因此不适合用\n于评估情感分析模型。\nB. Text summarization \n文本摘要\n文本摘要\n \n错误。文本摘要的目标是从长文本中提取关键内容或生成简短摘要。这与情感分析的分类任务无关，因此不适合用于\n评估情感分析模型。\nC. Machine translation \n机器翻译\n机器翻译\n \n错误。机器翻译的目标是将文本从一种语言翻译成另一种语言。这与情感分析的分类任务无关，因此不适合用于评估\n情感分析模型。\nD. Classification \n分类\n分类\n \n正确。情感分析的目标是将文本分类为\n“\n中性\n”\n、\n“\n积极\n”\n或\n“\n消极\n”\n，这正是分类任务的定义。因此，分类是正确的模型评\n估策略。\n3. \n我选的答案\n我选的答案\nD. Classification \n分类\n4. \n官方的答案\n官方的答案\nD. Classification \n分类\n5. \n与官方答案的比较\n与官方答案的比较\n我的答案与官方答案一致，均为\nD\n。\n原因分析：分类是情感分析任务的核心方法，其他选项与情感分析的目标不符。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://"
+  },
+  {
+    "id": "283",
+    "header": "Topic 1 Question #283",
+    "type": "match",
+    "question": "Select the correct AI term from the following list for each statement. Each AI term should be selected one time.\n热点\n-\n从以下列表中为每个陈述选择正确的AI术语。每个AI术语应仅被选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Simulates human problem-solving capabilities",
+      "Applies data-driven learning techniques to make predictions",
+      "Focuses on processing data through intricate neural networks"
+    ],
+    "choices": [
+      "AI",
+      "ML",
+      "Deep learning"
+    ],
+    "answer": [
+      "AI",
+      "ML",
+      "Deep learning"
+    ],
+    "explanation": "正确答案：\nSimulates human problem-solving capabilities -> AI\nApplies data-driven learning techniques to make predictions -> ML\nFocuses on processing data through intricate neural networks -> Deep learning"
   },
   {
     "id": "284",
@@ -3545,6 +3937,31 @@
     },
     "answer": "B",
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\n1. \n考察的知识点\n考察的知识点\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAmazon SageMaker\n的功能模块，尤其是与模型解释性相关的功能。\n需要了解如何使用\nSageMaker\n工具来分析模型行为和输入特征对模型输出的影响。\n2. \n逐个分析选项\n逐个分析选项\nA. SageMaker Canvas\n错误：\nSageMaker Canvas\n是一个无代码机器学习工具，主要用于帮助用户快速构建预测模型，而不是用于分析模型\n行为或解释模型输出。\nB. SageMaker Clarify\n正确：\nSageMaker Clarify\n专门用于检测模型中的偏差并提供解释性分析。它可以帮助用户理解输入特征如何影响模型\n的预测结果。\nC. SageMaker Feature Store\n错误：\nSageMaker Feature Store\n是一个用于存储、共享和管理机器学习特征的工具，与模型解释性无关。\nD. SageMaker Ground Truth\n错误：\nSageMaker Ground Truth\n用于数据标注，帮助生成高质量的训练数据，与模型行为分析无关。\n3. \n我的选择\n我的选择\n我选择的答案是：\nB. SageMaker Clarify\n4. \n官方答案\n官方答案\n官方答案是：\nB. SageMaker Clarify\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致。\n原因：\nSageMaker Clarify\n的功能完全符合题目要求，即分析输入特征对模型行为的影响。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop542998714.m.taobao.com\n咸鱼\n: \" IT\n认证轻松过\n \" \nhttps://www.g"
+  },
+  {
+    "id": "291",
+    "header": "Topic 1 Question #291",
+    "type": "match",
+    "question": "An AI practitioner is determining the appropriate data type for various use cases.\nSelect the correct data type from the following list for each use case. Select each data type one time.\n热点\n-\n一位AI从业者正在为各种使用场景确定合适的数据类型。\n从以下列表中为每个使用场景选择正确的数据类型。每种数据类型只能选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Build a sentiment analysis model for social media posts.",
+      "Train a self-driving car to recognize traffic signs.",
+      "Optimize ad campaigns by using customer demographic data and purchase history.",
+      "Forecast stock prices by using historical price data."
+    ],
+    "choices": [
+      "Text data",
+      "Image data",
+      "Tabular data",
+      "Time series data"
+    ],
+    "answer": [
+      "Text data",
+      "Image data",
+      "Tabular data",
+      "Time series data"
+    ],
+    "explanation": "正确答案：\n"
   },
   {
     "id": "292",
@@ -3651,6 +4068,28 @@
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是如何满足机器学习模型的透明性和可解释性要求，以及如何记录模型决策过程以符合监管要求。\n重点在于选择能够支持模型文档化和解释的\nAWS\n服务。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Amazon Textract\nAmazon Textract\n是一项用于从文档中提取文本和数据的服务，主要用于文档处理和\nOCR\n（光学字符识别）。\n它不具备记录机器学习模型决策过程或解释模型的功能，因此与题目要求不符。\n错误原因：\n错误原因：\n不支持模型透明性和解释性。\nB. Amazon SageMaker Model Card\nAmazon SageMaker Model Card\n是一项专门用于记录机器学习模型信息的服务，包括模型的用途、性能指标、训练数\n据、决策过程等。\n它能够帮助满足监管要求，提供透明性和可解释性，并支持审计目的。\n正确原因：\n正确原因：\n完全符合题目要求。\nC. AWS CloudFormation\nAWS CloudFormation\n是一项用于管理和部署\nAWS\n资源的服务，主要用于基础设施即代码（\nIaC\n）。\n它与机器学习模型的透明性和解释性无关，因此不符合题目要求。\n错误原因：\n错误原因：\n不支持模型文档化或解释性。\nD. Amazon Comprehend\nAmazon Comprehend\n是一项自然语言处理（\nNLP\n）服务，用于分析文本情感、提取关键字等。\n它不具备记录机器学习模型决策过程或解释模型的功能，因此与题目要求不符。\n错误原因：\n错误原因：\n不支持模型透明性和解释性。\n3. \n我的选择\n我的选择\n答案：\n答案：\nB. Amazon SageMaker Model Card\n4. \n官方答案\n官方答案\n官方答案：\n官方答案：\nB. Amazon SageMaker Model Card\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致。\n原因：\nAmazon SageMaker Model Card\n是唯一符合题目要求的服务，能够提供模"
   },
   {
+    "id": "300",
+    "header": "Topic 1 Question #300",
+    "type": "match",
+    "question": "A company is building a generative AI application and is reviewing foundation models (FMs). The company needs to\nconsider multiple FM characteristics.\nSelect the correct FM characteristic from the following list for each definition. Each FM characteristic should be selected\none time.\n热点\n-\n一家公司正在构建一个生成式 AI 应用，并正在审查基础模型（FMs）。该公司需要考虑多个 FM 特性。\n从以下列表中为每个定义选择正确的 FM 特性。每个 FM 特性应仅选择一次。\n从以下列表中为每个定义选择正确的 FM 特性。每个 FM 特性应仅选择一次。\nCorrect Answer:",
+    "prompts": [
+      "Amount of information that can fit in a single prompt",
+      "Length of time it takes for a model to generate an output",
+      "Multiple users invoking an application endpoint simultaneously"
+    ],
+    "choices": [
+      "Context windows",
+      "Latency",
+      "Concurrency"
+    ],
+    "answer": [
+      "Context windows",
+      "Latency",
+      "Concurrency"
+    ],
+    "explanation": "正确答案：\n"
+  },
+  {
     "id": "301",
     "header": "Topic 1 Question #301",
     "question": "A company is using large language models (LLMs) to develop online tutoring applications. The company needs to apply\nconfigurable safeguards to the LLMs. These safeguards must ensure that the LLMs follow standard safety rules when\ncreating applications. \nWhich solution will meet these requirements with the LEAST effort?\n一家公司正在使用大型语言模型（\nLLMs\n）开发在线辅导应用程序。该公司需要对\nLLMs\n应用可配置的保护措施。这些\n保护措施必须确保\nLLMs\n在创建应用程序时遵循标准安全规则。\n \n哪种解决方案能够以最少的努力满足这些要求？",
@@ -3755,6 +4194,25 @@
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是\nAWS\n机器学习服务中不同推理方法的适用场景，包括实时推理、批量转换、无服务器推理和异步推理。\n重点在于理解这些推理方法的成本效益和适用场景，尤其是在处理大规模数据分析时的选择。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Real-time inference (\n实时推理\n实时推理\n)\n实时推理适用于需要即时响应的场景，例如实时用户交互或在线预测。\n本题要求分析过去一年的数据并生成月度趋势报告，不需要实时响应。\n实时推理的成本较高，因为需要持续运行实例以保持低延迟。\n错误原因：\n错误原因：\n不符合成本效益要求，也不适合批量数据分析场景。\nB. Batch transform (\n批量转换\n批量转换\n)\n批量转换适用于处理大规模数据集的离线推理任务，例如生成报告或分析历史数据。\n它是成本效益最高的选择，因为可以按需运行，无需持续运行实例。\n本题要求分析过去一年的数据并生成月度报告，批量转换完全符合需求。\n正确原因：\n正确原因：\n符合成本效益要求，适合批量数据分析场景。\nC. Serverless inference (\n无服务器推理\n无服务器推理\n)\n无服务器推理适用于低流量或间歇性推理需求，能够自动扩展并按使用量计费。\n虽然成本较低，但主要用于实时或小规模推理场景，而不是大规模数据分析。\n错误原因：\n错误原因：\n不适合处理大规模历史数据的批量分析任务。\nD. Asynchronous inference (\n异步推理\n异步推理\n)\n异步推理适用于需要处理长时间运行的推理任务，例如复杂的模型计算。\n虽然可以处理大规模数据，但其主要优势在于支持长时间运行任务，而不是成本效益。\n本题没有提到需要处理复杂模型或长时间运行任务，因此异步推理不是最佳选择。\n错误原因：\n错误原因：\n不符合成本效益要求，也不完全适合本题场景。\n3. \n我的选择\n我的选择\n答案：\n答案：\nB. Batch transform (\n批量转换\n批量转换\n)\n4. \n官方答案\n官方答案\n官方答案：\n官方答案：\nB. Bat"
   },
   {
+    "id": "309",
+    "header": "Topic 1 Question #309",
+    "type": "order",
+    "question": "Select and order the steps from the following list to correctly describe the ML lifecycle for a new custom model. Select\neach step one time.\n热点\n-\n-\n从以下列表中选择并排列步骤，以正确描述新自定义模型的机器学习生命周期。每个步骤选择一次。\nCorrect Answer:",
+    "items": [
+      "Define the business objective",
+      "Process the data",
+      "Develop and train the model",
+      "Deploy the model"
+    ],
+    "answer": [
+      "Define the business objective",
+      "Process the data",
+      "Develop and train the model",
+      "Deploy the model"
+    ],
+    "explanation": "正确答案：\nStep 1: Define the business objective\nStep 2: Process the data\nStep 3: Develop and train the model\nStep 4: Deploy the model"
+  },
+  {
     "id": "310",
     "header": "Topic 1 Question #310",
     "question": "A company acquires International Organization for Standardization (ISO) accreditation to manage AI risks and to use AI\nresponsibly. \nWhat does this accreditation reflect about the company?\n一家公司获得了国际标准化组织（\nISO\n）认证，以管理\nAI\n风险并负责任地使用\nAI\n。\n \n这项认证反映了该公司什么？",
@@ -3768,6 +4226,28 @@
     "explanation": "正确答案：\nD\n题目分析与解答\n题目分析与解答\n1. \n这题考察的知识点是什么\n这题考察的知识点是什么\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n本题考察的是\nISO\n认证的含义及其在\nAI\n开发框架中的应用。\nISO\n认证通常是针对组织的流程、框架或系统，而不是个人或具体的产品。\n理解\nISO\n认证如何帮助公司管理\nAI\n风险并确保负责任地使用\nAI\n。\n2. \n独立分析每个选项\n独立分析每个选项\nA. \n公司所有成员都获得了\n公司所有成员都获得了\nISO\n认证。\n认证。\n错误。\nISO\n认证通常是针对组织的流程或框架，而不是个人成员。\nISO\n认证并不要求公司所有成员都获得认证。\nB. \n公司使用的所有\n公司使用的所有\nAI\n系统都获得了\n系统都获得了\nISO\n认证。\n认证。\n错误。\nISO\n认证通常是针对开发框架或流程，而不是具体的\nAI\n系统。\nAI\n系统本身不会直接获得\nISO\n认证，认证的是开发这些系统的流程或框架。\nC. \n公司所有\n公司所有\nAI\n应用团队成员都获得了\n应用团队成员都获得了\nISO\n认证。\n认证。\n错误。\nISO\n认证通常是针对组织的流程或框架，而不是个人团队成员。\n个人认证与\nISO\n组织认证是不同的概念。\nD. \n公司的开发框架获得了\n公司的开发框架获得了\nISO\n认证。\n认证。\n正确。\nISO\n认证通常是针对组织的开发框架或流程，以确保其符合国际标准。\n这反映了公司在开发\nAI\n系统时遵循了负责任的流程和标准。\n3. \n我选的答案\n我选的答案\nD. \n公司的开发框架获得了\n公司的开发框架获得了\nISO\n认证。\n认证。\n4. \n官方答案\n官方答案\nD. \n公司的开发框架获得了\n公司的开发框架获得了\nISO\n认证。\n认证。\n5. \n比较与重新思考\n比较与重新思考\n我的答案与官方答案一致，均为\nD\n。\n原因：\nISO\n认证通常是针对组织的开发框架或流程，而不是个人或具体的\nAI\n系统。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI"
   },
   {
+    "id": "311",
+    "header": "Topic 1 Question #311",
+    "type": "match",
+    "question": "Select the correct prompt engineering technique from the following list for each description. Select each prompt\nengineering technique one time or not at all.\n热点\n-\n从以下列表中为每个描述选择正确的提示工程技术。每个提示工程技术可以选择一次或不选择。\n从以下列表中为每个描述选择正确的提示工程技术。每个提示工程技术可以选择一次或不选择。\nCorrect Answer:",
+    "prompts": [
+      "描述1",
+      "描述2",
+      "描述3"
+    ],
+    "choices": [
+      "Few-shot prompting",
+      "Chain-of-thought prompting",
+      "Zero-shot prompting"
+    ],
+    "answer": [
+      "Few-shot prompting",
+      "Chain-of-thought prompting",
+      "Zero-shot prompting"
+    ],
+    "explanation": "正确答案：\n描述1 -> Few-shot prompting\n描述2 -> Chain-of-thought prompting\n描述3 -> Zero-shot prompting"
+  },
+  {
     "id": "312",
     "header": "Topic 1 Question #312",
     "question": "A company is developing an ML model to predict heart disease risk. The model uses patient data, such as age,\ncholesterol, blood pressure, smoking status, and exercise habits. The dataset includes a target value that indicates\nwhether a patient has heart disease. \nWhich ML technique will meet these requirements?\n一家公司正在开发一个机器学习模型，用于预测心脏病风险。该模型使用患者数据，例如年龄、胆固醇、血压、吸烟\n状态和运动习惯。数据集包括一个目标值，指示患者是否患有心脏病。\n \n哪种机器学习技术可以满足这些需求？",
@@ -3779,6 +4259,23 @@
     },
     "answer": "B",
     "explanation": "正确答案：\nB\n题目分析与解答\n题目分析与解答\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n1. \n考察的知识点\n考察的知识点\n本题考察的是机器学习技术的分类，包括监督学习、无监督学习、强化学习和半监督学习的应用场景。\n重点在于理解监督学习的定义及其适用场景，即使用带有标签的数据集进行训练以预测目标值。\n2. \n独立分析每个选项\n独立分析每个选项\nA. Unsupervised learning \n无监督学习\n无监督学习\n \n无监督学习用于处理没有标签的数据集，主要用于聚类或降维任务。本题中数据集包含目标值（标签），因此无监督\n学习不适用。\nB. Supervised learning \n监督学习\n监督学习\n \n监督学习使用带有标签的数据集进行训练，以预测目标值。本题中数据集包含目标值（是否患有心脏病），且目标是\n预测心脏病风险，符合监督学习的应用场景。因此此选项正确。\nC. Reinforcement learning \n强化学习\n强化学习\n \n强化学习主要用于基于奖励和惩罚机制的决策问题，例如游戏或机器人控制。本题没有涉及奖励机制或连续决策过\n程，因此强化学习不适用。\nD. Semi-supervised learning \n半监督学习\n半监督学习\n \n半监督学习用于处理部分数据有标签、部分数据无标签的情况。本题明确说明数据集包含目标值（标签），因此半监\n督学习不适用。\n3. \n我的选择\n我的选择\n我选择的答案是：\nB. Supervised learning\n4. \n官方答案\n官方答案\n官方答案是：\nB. Supervised learning\n5. \n比较与思考\n比较与思考\n我的答案与官方答案一致。\n原因：根据题目描述，数据集包含目标值（标签），且目标是预测心脏病风险，完全符合监督学习的定义和应用场\n景。\nhttps://shop542998714.m.taobao.com     https://www.goofish.com/personal?userId=2645260430\n \nAWS Certified AI Practitioner AIF-C01\n淘宝\n: \" IT\n认证轻松过\n \" \nhttps://shop"
+  },
+  {
+    "id": "313",
+    "header": "Topic 1 Question #313",
+    "type": "order",
+    "question": "A company periodically updates its product database by manually uploading digital product guides. The product guides\ncontain text and images. The company wants to automate this task by using generative AI.\nSelect and order the steps from the following list to automate the database update task by using generative AI. Select\neach step one time.\n热点\n-\n一家公司定期通过手动上传数字产品指南来更新其产品数据库。产品指南包含文本和图像。该公司希望通过使用生成\n式 AI 来自动化此任务。\n从以下列表中选择并排序步骤，以使用生成式 AI 自动化数据库更新任务。每个步骤选择一次。\nCorrect Answer:",
+    "items": [
+      "Upload the digital text and image files to an Amazon S3 bucket.",
+      "Use Amazon Nova multimodal models to process the digital text and image files.",
+      "Insert data into the product database."
+    ],
+    "answer": [
+      "Upload the digital text and image files to an Amazon S3 bucket.",
+      "Use Amazon Nova multimodal models to process the digital text and image files.",
+      "Insert data into the product database."
+    ],
+    "explanation": "正确答案：\nStep 1: Upload the digital text and image files to an Amazon S3 bucket.\nStep 2: Use Amazon Nova multimodal models to process the digital text and image files.\nStep 3: Insert data into the product database."
   },
   {
     "id": "314",
